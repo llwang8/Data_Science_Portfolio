@@ -1,8 +1,7 @@
 # Data Science Portfolio
 
 ### Python Programming
-- Explore U.S. Births [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/PythonProgramming/Project_Explore%20U.S.%20Births)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/PythonProgramming/Project_Explore%20U.S.%20Births/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
-- Explore Gun Death in U.S. [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/PythonProgramming/Project_%20Exploring%20Gun%20Deaths%20in%20the%20US)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/PythonProgramming/Project_%20Exploring%20Gun%20Deaths%20in%20the%20US/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
+- Explore U.S. Births [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/PythonProgramming/Project_%20Explore%20U.S.%20Births)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/PythonProgramming/Project_%20Explore%20U.S.%20Births/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
 
 ### Data Structures And Algorithms
 - Investigating Airplane Accidents [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataStructuresAndAlgorithms/Guided%20Project_%20Investigating%20Airplane%20Accidents)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataStructuresAndAlgorithms/Guided%20Project_%20Investigating%20Airplane%20Accidents/.ipynb_checkpoints/Project_Investigating%20Airplane%20Accidents-checkpoint.ipynb)]
