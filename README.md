@@ -5,7 +5,7 @@
 - Explore Gun Death in U.S. [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/PythonProgramming/Project_%20Exploring%20Gun%20Deaths%20in%20the%20US)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/PythonProgramming/Project_%20Exploring%20Gun%20Deaths%20in%20the%20US/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
 
 ### Data Structures And Algorithms
-- Investigating Airplane Accidents [[open dir]()] [[ipynb]()]
+- Investigating Airplane Accidents [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataStructuresAndAlgorithms/Guided%20Project_%20Investigating%20Airplane%20Accidents)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataStructuresAndAlgorithms/Guided%20Project_%20Investigating%20Airplane%20Accidents/.ipynb_checkpoints/Project_Investigating%20Airplane%20Accidents-checkpoint.ipynb)]
 
 ### Data Analysis with Pandas
 - Analyze Thanksgiving Dinner [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataAnalysisWithPandas/Project_%20Analyzing%20Thanksgiving%20Dinner)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataAnalysisWithPandas/Project_%20Analyzing%20Thanksgiving%20Dinner/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
@@ -36,7 +36,7 @@
 #### Decision Tree
 - [[open dir]()] [[ipynb]()]
 
-#### 
+####
 - [[open dir]()] [[ipynb]()]
 
 ### Spark and Map-Reduce
