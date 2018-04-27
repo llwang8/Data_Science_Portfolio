@@ -18,6 +18,7 @@
 
 ### Data Cleaning
 - Star War Surveys [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataCleaning/Guided%20Project_%20Star%20Wars%20Survey)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataCleaning/Guided%20Project_%20Star%20Wars%20Survey/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
+- Analyzing New York City High School Data [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataCleaning/Project_%20Analyzing%20NYC%20High%20School%20Data)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataCleaning/Project_%20Analyzing%20NYC%20High%20School%20Data/.ipynb_checkpoints/Schools-checkpoint.ipynb)]
 
 ### SQL
 - [[open dir]()] [[ipynb]()]
