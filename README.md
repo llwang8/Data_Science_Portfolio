@@ -17,7 +17,7 @@
 - Visualizing The Gender Gap in College Degrees [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/StorytellingThroughDataVisualization/Project_%20Visualizing%20The%20Gender%20Gap%20In%20College%20Degrees)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/StorytellingThroughDataVisualization/Project_%20Visualizing%20The%20Gender%20Gap%20In%20College%20Degrees/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
 
 ### Data Cleaning
-- Star War Surveys [[open dir]()] [[ipynb]()]
+- Star War Surveys [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataCleaning/Guided%20Project_%20Star%20Wars%20Survey)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataCleaning/Guided%20Project_%20Star%20Wars%20Survey/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
 
 ### SQL
 - [[open dir]()] [[ipynb]()]
