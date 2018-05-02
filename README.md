@@ -21,7 +21,7 @@
 - Analyzing New York City High School Data [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataCleaning/Project_%20Analyzing%20NYC%20High%20School%20Data)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataCleaning/Project_%20Analyzing%20NYC%20High%20School%20Data/.ipynb_checkpoints/Schools-checkpoint.ipynb)]
 
 ### SQL
-- [[open dir]()] [[ipynb]()]
+- Analyzing CIA Factbook Data with SQLite and Python [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLdatabases/Project_%20Analyzing%20CIA%20Factbook%20Data%20Using%20SQLite%20and%20Python)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/SQLdatabases/Project_%20Analyzing%20CIA%20Factbook%20Data%20Using%20SQLite%20and%20Python/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
 
 ### Probability and Statistics in Python
 - [[open dir]()] [[ipynb]()]
