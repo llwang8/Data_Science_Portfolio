@@ -1,0 +1,19 @@
+Here are the result from terminal:
+    
+------------------
+
+JJ Percent by Respective Gender (M, F):                                     
+0.159847863766                                                       
+0.0280647940993                                                      
+------------------ 
+
+Magnet Percent by Respective Gender (M, F):                                 
+8.04854583366                                                        
+8.10281991889                                                        
+------------------   
+
+Among males, 0.15% go to JJ while 0.02% female did.
+
+About 8% male and 8.1% female go to magnet schools.
+
+Boys tend to make more trouble and ended up in JJ than girls.  There is no gender difference in terms of gifted and talented.
