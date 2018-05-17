@@ -1,12 +1,61 @@
+*** Working With Data Downloads ***
+
+In this project, I worked with an education data set in ZIP format. I learned how to extract the files inside the ZIP download and then work with them.
+
+* Introduction to the dataset *
+
+This data is called the Civil Rights Data Collection. It contains information on educational achievement and opportunities in the U.S., broken down by race and school. For example, it records the racial composition of the students enrolled in advanced classes at each school. Each row represents a school, while each column records an indicator of academic achievement.
+
+This project used a subset of the data that only contains 1 out of every 100 rows in the original data set. The original version can be downloaded from data.gov.
+
+* Analysis *
+
+=====================================
+1. Extract the files from the archive file, crdc201314csv.zip, then delete the zip file to save space.
+
+At the command line of home directory:
+>>>unzip crdc201314csv.zip
+>>>rm crdc201314csv.ZIP
+
+=====================================
+2. Use the terminal to activate the python3 virtual environment. Verify that pandas is installed and available.
+
+>>>virtualenv -p /usr/bin/python3 python3
+>>>source python3/bin/activate
+>>>pip freeze
+
+=====================================
+3. Investigate how many students are in magnet schools or juvenile justice facilities and if there is any gender difference for enrollment ratio (exploration.py).
+
+JJ - Indicates whether the school is part of a juvenile justice facility, or youth prison.
+SCH_STATUS_MAGNET - Indicates whether the school is a magnet school, an advanced school for students who achieve high scores on certain tests.
+
 Here are the result from terminal:
     
-------------------
-
+------------------                                                   
+Number of JJ by Gender (M, F):                                       
+YES 427       1                                                          
+NO 266702    1                                                          
+Name: TOT_ENR_M, dtype: int64                                        
+NO 252915    1                                                          
+YES 71        1                                                          
+Name: TOT_ENR_F, dtype: int64                                        
+------------------                                                   
 JJ Percent by Respective Gender (M, F):                                     
 0.159847863766                                                       
 0.0280647940993                                                      
------------------- 
+------------------                       ******************
+------------------
 
+Number of Magnet by Gender (M, F):                                           
+NO 245629    1                                                          
+YES 21500     1                                                          
+Name: TOT_ENR_M, dtype: int64                                        
+NO 232487    1                                                          
+YES 20499     1
+
+Name: TOT_ENR_F, dtype: int64                                        
+------------------                             
 Magnet Percent by Respective Gender (M, F):                                 
 8.04854583366                                                        
 8.10281991889                                                        
@@ -17,3 +66,64 @@ Among males, 0.15% go to JJ while 0.02% female did.
 About 8% male and 8.1% female go to magnet schools.
 
 Boys tend to make more trouble and ended up in JJ than girls.  There is no gender difference in terms of gifted and talented.
+
+
+=====================================
+4. Compute the sums of all of the columns that break down enrollment by race and gender.  Divide the sums of the columns by all_enrollment to determine the percentage of enrollment that each race and gender makes up (enrollment.py).
+
+--- Gender Profile in School ---                                     
+Male:  51.36 %                           
+Female:  48.64 %   
+     
+--- Race composition in School ---                                      
+Hispanic:  26.16 %                       
+American Indian:  1.41 %                 
+Asian:  5.04 %                         
+Hawaiian / Pacific Islander:  0.37 %     
+Black:  14.12 %                        
+White:  49.85 %                       
+Two or More Races:  3.05 %                                      
+Compare the above results to the overall population of the United States, broken down by race and gender. 
+
+--- The 2010–2015 American Community Survey ---
+Other: 4.8 %
+American Indian: 0.8 %
+Asian: 5.2 %
+Hawaiian / Pacific Islander: 0.2 %
+Black: 12.6 %
+White: 73.3 %
+Two or More Races:  3.1 % 
+  
+Compared the above results,  Black percentage in school is higher than its counterpart in population.  White percentage is lower than in population.  Hispanic percentage is higher than its population profile.  
+
+According to the Survey, in population 17.1% are identified as Hispanic. People who identify their origin as Hispanic or Latino may be of any race. 11% of those 17.1% are considered White.
+
+Even after considering this factor, white percentage is lower than its population Profile.
+
+=====================================
+5. Create data folder and move data files to the data folder
+ 
+>>>mkdir data
+>>>mv CRDC2013_14.csv data/
+>>>mv CRDC2013_14content.csv data/
+>>>mv CRDC_documentation_csv.txt data/
+>>>mv CRDC_usage_agreement.txt
+
+
+=====================================
+6. Review expulsions (which refers to when students are kicked out of school permanently). Columns like SCH_DISCWODIS_EXPWOE_HI_M and TOT_DISCWODIS_EXPZT_F contain information on expulsions.
+
+
+=====================================
+7. Explore gender and race differences in SAT scores. Columns like SCH_SATACT_HI_M contain this information.
+
+
+=====================================
+8. Figure out the racial and gender breakdowns for different types of schools, such as magnet schools.
+
+=====================================
+9. Determine how many students are in gifted and talented programs, or advanced placement classes.
+Investigate how racial differences in enrollment change from preschool to high school.
+
+=====================================
+10. Explore school bullying. The SCH_HBDISCIPLINED_DIS_HI_M column contains some of this information.

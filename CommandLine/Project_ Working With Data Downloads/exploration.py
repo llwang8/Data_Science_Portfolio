@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv('CRDC2013_14.csv', encoding='Latin-1')
+data = pd.read_csv('data/CRDC2013_14.csv', encoding='Latin-1')
 
 JJ_num = data['JJ'].value_counts()
 #print(JJ_num)
@@ -27,15 +27,16 @@ jj_m_ratio = jj_total_in_m / m_total * 100
 jj_f_ratio = jj_total_in_f / f_total * 100
 
 print('------------------')
-print('JJ Percent by Respective Gender:')
+print('JJ Percent by Respective Gender (M, F):')
 print(jj_m_ratio)
 print(jj_f_ratio)
 print('------------------')
 
 magnet_df = pd.pivot_table(data, values=['TOT_ENR_M', 'TOT_ENR_F'], index='SCH_STATUS_MAGNET', aggfunc='sum')
 
+
 print('------------------')
-print('Number of Magnet by Gender')
+print('Number of Magnet by Gender (M, F)')
 print(magnet_df['TOT_ENR_M'].value_counts())
 print(magnet_df['TOT_ENR_F'].value_counts())
 
