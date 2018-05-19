@@ -9,7 +9,7 @@
 
 ### The Command Line
 - Working with Data Downloads [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/CommandLine/Project_%20Working%20With%20Data%20Downloads)]
-- [[open dir]()]
+- Transforming Data With Python [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/CommandLine/Project_%20Transforming%20data%20with%20Python)]
 
 ### Data Analysis with Pandas
 - Analyze Thanksgiving Dinner [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataAnalysisWithPandas/Project_%20Analyzing%20Thanksgiving%20Dinner)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataAnalysisWithPandas/Project_%20Analyzing%20Thanksgiving%20Dinner/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
