@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://www.dbdesigner.net/designer/schema/180626 -->
+<html lang="en" class=" "><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Major_league_baseball | DbDesigner.net</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script async="" src="./Major_league_baseball _ DbDesigner.net_files/analytics.js"></script><script>
+  var _rollbarConfig = {
+      accessToken: "7cae76bdce6d4737a5109edcddc6577e",
+      ignoredMessages: ['(unknown): Script error.'],
+      captureUncaught: true,
+      payload: {
+          environment: "production"
+      }
+};
+// Rollbar Snippet
+!function(r){function o(e){if(t[e])return t[e].exports;var n=t[e]={exports:{},id:e,loaded:!1};return r[e].call(n.exports,n,n.exports,o),n.loaded=!0,n.exports}var t={};return o.m=r,o.c=t,o.p="",o(0)}([function(r,o,t){"use strict";var e=t(1).Rollbar,n=t(2);_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://d37gvrvc0wt4s1.cloudfront.net/js/v1.8/rollbar.min.js";var a=e.init(window,_rollbarConfig),i=n(a,_rollbarConfig);a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,i)},function(r,o){"use strict";function t(r){return function(){try{return r.apply(this,arguments)}catch(o){try{console.error("[Rollbar]: Internal error",o)}catch(t){}}}}function e(r,o,t){window._rollbarWrappedError&&(t[4]||(t[4]=window._rollbarWrappedError),t[5]||(t[5]=window._rollbarWrappedError._rollbarContext),window._rollbarWrappedError=null),r.uncaughtError.apply(r,t),o&&o.apply(window,t)}function n(r){var o=function(){var o=Array.prototype.slice.call(arguments,0);e(r,r._rollbarOldOnError,o)};return o.belongsToShim=!0,o}function a(r){this.shimId=++s,this.notifier=null,this.parentShim=r,this._rollbarOldOnError=null}function i(r){var o=a;return t(function(){if(this.notifier)return this.notifier[r].apply(this.notifier,arguments);var t=this,e="scope"===r;e&&(t=new o(this));var n=Array.prototype.slice.call(arguments,0),a={shim:t,method:r,args:n,ts:new Date};return window._rollbarShimQueue.push(a),e?t:void 0})}function l(r,o){if(o.hasOwnProperty&&o.hasOwnProperty("addEventListener")){var t=o.addEventListener;o.addEventListener=function(o,e,n){t.call(this,o,r.wrap(e),n)};var e=o.removeEventListener;o.removeEventListener=function(r,o,t){e.call(this,r,o&&o._wrapped?o._wrapped:o,t)}}}var s=0;a.init=function(r,o){var e=o.globalAlias||"Rollbar";if("object"==typeof r[e])return r[e];r._rollbarShimQueue=[],r._rollbarWrappedError=null,o=o||{};var i=new a;return t(function(){if(i.configure(o),o.captureUncaught){i._rollbarOldOnError=r.onerror,r.onerror=n(i);var t,a,s="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<s.length;++t)a=s[t],r[a]&&r[a].prototype&&l(i,r[a].prototype)}return r[e]=i,i})()},a.prototype.loadFull=function(r,o,e,n,a){var i=function(){var o;if(void 0===r._rollbarPayloadQueue){var t,e,n,i;for(o=new Error("rollbar.js did not load");t=r._rollbarShimQueue.shift();)for(n=t.args,i=0;i<n.length;++i)if(e=n[i],"function"==typeof e){e(o);break}}"function"==typeof a&&a(o)},l=!1,s=o.createElement("script"),u=o.getElementsByTagName("script")[0],p=u.parentNode;s.crossOrigin="",s.src=n.rollbarJsUrl,s.async=!e,s.onload=s.onreadystatechange=t(function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){s.onload=s.onreadystatechange=null;try{p.removeChild(s)}catch(r){}l=!0,i()}}),p.insertBefore(s,u)},a.prototype.wrap=function(r,o){try{var t;if(t="function"==typeof o?o:function(){return o||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._wrapped){r._wrapped=function(){try{return r.apply(this,arguments)}catch(o){throw o._rollbarContext=t()||{},o._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=o,o}},r._wrapped._isWrap=!0;for(var e in r)r.hasOwnProperty(e)&&(r._wrapped[e]=r[e])}return r._wrapped}catch(n){return r}};for(var u="log,debug,info,warn,warning,error,critical,global,configure,scope,uncaughtError".split(","),p=0;p<u.length;++p)a.prototype[u[p]]=i(u[p]);r.exports={Rollbar:a,_rollbarWindowOnError:e}},function(r,o){"use strict";r.exports=function(r,o){return function(t){if(!t&&!window._rollbarInitialized){var e=window.RollbarNotifier,n=o||{},a=n.globalAlias||"Rollbar",i=window.Rollbar.init(n,r);i._processShimQueue(window._rollbarShimQueue||[]),window[a]=i,window._rollbarInitialized=!0,e.processPayloads()}}}}]);
+// End Rollbar Snippet
+</script>
+  <!--[if lt IE 9]>
+  <script src="/excanvas.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" media="all" href="./Major_league_baseball _ DbDesigner.net_files/application-eb96851b106371a3a4f85b0516295deff823392baf83697c9b56f8809448eab0.css">
+  <script src="./Major_league_baseball _ DbDesigner.net_files/application-b490c2968028ab38ceda838be7e98eb986b7b865a50fa2218a0ed9a442aaf0ba.js"></script>
+  <script src="./Major_league_baseball _ DbDesigner.net_files/jscolor.js" type="text/javascript"></script>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="88DaSNI3coh70EMkquKBDf6AklaRLX5t8lH+WWmttA5aLmh04UedM490mnXGA2CYj/botzI0ZfkpLHaEE1Hppg==">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.dbdesigner.net/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.dbdesigner.net/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.dbdesigner.net/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.dbdesigner.net/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://www.dbdesigner.net/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.dbdesigner.net/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.dbdesigner.net/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.dbdesigner.net/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="https://www.dbdesigner.net/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="https://www.dbdesigner.net/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="https://www.dbdesigner.net/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="https://www.dbdesigner.net/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="https://www.dbdesigner.net/favicon-128.png" sizes="128x128">
+</head>
+<body style="cursor: auto;">
+  <div class="app-container">
+	<div class="toolbar" style="display: block; width: 100%;"><ul class="menu" id="mainmenu" unselectable="on">
+    <li class="">
+    <span class="menu-item">Schema</span>
+    <ul class="submenu" style="display: none;">
+        <li id="menu-item-schema-new">New ...<span class="shortcut" data-accel="ctrl+n">Ctrl+N</span></li>
+        <li id="menu-item-schema-load">Load ...<span class="shortcut" data-accel="ctrl+l">Ctrl+L</span></li>
+        <li id="menu-item-schema-save" class="disabled">Save<span class="shortcut" data-accel="ctrl+s">Ctrl+S</span></li>
+        <li id="menu-item-schema-save-as">Save As ...</li>
+        <li class="menu-separator">&nbsp;</li>
+        <li id="menu-item-schema-templates">Templates ...</li>
+        <li class="menu-separator">&nbsp;</li>
+        <li id="menu-item-schema-properties">Properties ...</li>
+        <li id="menu-item-schema-share">Share ...</li>
+        <li class="menu-separator">&nbsp;</li>
+        <li id="menu-item-schema-import">Import ...<span class="shortcut" data-accel="ctrl+i">Ctrl+I</span></li>
+    </ul>
+    </li>
+    <li class="">
+    <span class="menu-item">Edit</span>
+    <ul class="submenu" style="display: none;">
+        <li id="menu-item-edit-undo" class="disabled">Undo<span class="shortcut" data-accel="ctrl+z">Ctrl+Z</span></li>
+        <li id="menu-item-edit-redo" class="disabled">Redo<span class="shortcut" data-accel="ctrl+y">Ctrl+Y</span></li>
+        <li class="menu-separator">&nbsp;</li>
+        <li id="menu-item-edit-select-all">Select All<span class="shortcut" data-accel="ctrl+a">Ctrl+A</span></li>
+        <li id="menu-item-edit-select-none">Select None</li>
+    </ul>
+    </li>
+    <li class="">
+    <span class="menu-item">Insert</span>
+    <ul class="submenu" style="display: none;">
+        <li id="menu-item-insert-table">Table<span class="shortcut" data-accel="alt+t">Alt+T</span></li>
+        <li id="menu-item-insert-note">Note<span class="shortcut" data-accel="alt+n">Alt+N</span></li>
+    </ul>
+    </li>
+    <li class="">
+    <span class="menu-item">View</span>
+    <ul class="submenu" style="display: none;">
+        <li id="menu-item-view-minimap">Hide Minimap</li>
+        <li id="menu-item-view-sidebar"><span class="menu-caption">Show Sidebar</span> <span class="shortcut" data-accel="alt+s">Alt+S</span></li>
+        <li id="menu-item-view-grid">Hide Grid</li>
+        <li class="menu-separator">&nbsp;</li>
+        <li id="menu-item-view-sort">Sort Items <span class="shortcut" data-accel="ctrl+1">Ctrl+1</span></li>
+        <li class="menu-separator">&nbsp;</li>
+        <li id="menu-item-view-line" class="has-submenu">
+        Line Type
+        <ul class="submenu second-lvl-menu" style="display: none;">
+            <li id="menu-item-view-line-bezier">Bezier</li>
+            <li id="menu-item-view-line-cornered">Cornered</li>
+        </ul>
+        </li>
+        <li class="menu-separator">&nbsp;</li>
+        <li id="menu-item-view-options">Options ...</li>
+    </ul>
+    </li>
+    <li class="">
+    <span class="menu-item">Export</span>
+    <ul class="submenu" style="display: none;">
+        <li id="menu-item-export-sql">Sql ...<span class="shortcut" data-accel="ctrl+e">Ctrl+E</span></li>
+        <li id="menu-item-export-image">Image ...</li>
+    </ul>
+    </li>
+    <li>
+    <span class="menu-item">Help</span>
+    <ul class="submenu" style="display: none;">
+        <li id="menu-item-help-index">Index</li>
+        <li class="menu-separator">&nbsp;</li>
+        <li id="menu-item-help-changes">Changes</li>
+        <li class="menu-separator">&nbsp;</li>
+        <li id="menu-item-help-tutorial">Show Tutorial</li>
+        <li id="menu-item-help-shortcuts">Keyboard Shortcuts<span class="shortcut" data-accel="shift+/">?</span></li>
+        <li id="menu-item-help-feedback">Feedback</li>
+        <li class="menu-separator">&nbsp;</li>
+        <li id="menu-item-help-about">About</li>
+    </ul>
+    </li>
+</ul>
+		<div class="notification" style="display: none;">Schema has been saved
+<span class="close"><i class="icon-cancel"></i></span></div>
+	<ul id="usermenu" class="menu" userselectable="on">
+  <li class="has-dropdown">
+    <span class="menu-item">
+      <i class="icon-user"></i>
+      <span class="toolbar-username">mulberrylane</span>
+    </span>
+    <ul class="submenu" style="display: none;">
+      <li id="menu-item-user-account-settings">Settings</li>
+      <li class="menu-separator">&nbsp;</li>
+      <li id="menu-item-user-logout">Logout</li>
+    </ul>
+  </li>
+</ul></div>
+	<div class="canvas-container" style="width: 1280px; height: 538px;">
+		<div class="init-loading" style="display: none;"><i class="icon-spin1 animate-spin"></i></div>
+		<canvas id="graph" class="canvas" width="3840" height="2400"></canvas>
+		<div class="selection"></div>
+	<ul class="context-menu menu" style="display: none; left: 298px; top: 44px;"><li id="menu-item-delete-table">Delete Table</li>
+<li class="menu-separator">&nbsp;</li>
+<li id="menu-item-duplicate-table">Clone Table</li>
+<li class="menu-separator">&nbsp;</li>
+<li class="no-highlight">
+	<div class="color-lines top-row">
+		<span title="maroon" class="table-color table-color-maroon" data-color="#800040"></span>
+		<span title="ocean" class="table-color table-color-ocean" data-color="#004080"></span>
+		<span title="teal" class="table-color table-color-teal" data-color="#008080"></span>
+		<span title="asparagus" class="table-color table-color-asparagus" data-color="#808000"></span>
+		<span title="strawberry" class="table-color table-color-strawberry" data-color="#FF0080"></span>
+		<span title="iron" class="table-color table-color-iron" data-color="#505050"></span>
+	</div>
+	<div class="color-lines bottom-row">
+		<span title="red" class="table-color table-color-red" data-color="#cc3333"></span>
+		<span title="blue" class="table-color table-color-blue" data-color="#1586D6"></span>
+		<span title="green" class="table-color table-color-green" data-color="#008000"></span>
+		<span title="orange" class="table-color table-color-orange" data-color="#ff8000"></span>
+		<span title="purple" class="table-color table-color-purple" data-color="#7F007F"></span>
+		<span title="reset" class="table-color table-color-reset"></span>
+	</div>
+</li></ul><ul class="context-menu menu" style="display: none;"><li id="menu-item-delete-note">Delete</li></ul><ul class="context-menu menu" style="display: none;"><li id="menu-item-insert-table">Table</li>
+<li id="menu-item-insert-note">Note</li>
+<li class="menu-separator">&nbsp;</li>
+<li id="menu-item-view-sort">Sort Items</li></ul><div class="minimap" style="right: 20px; width: 160px; height: 100px;"><div class="minimap__viewport" style="top: -1px; left: -1px; width: 53px; height: 22px;"></div><div class="minimap__icon minimap__icon_type_table" title="team" style="background-color: rgb(255, 255, 255); left: 21px; top: 1px; width: 8px; height: 5px;"></div><div class="minimap__icon minimap__icon_type_table" title="league" style="background-color: rgb(255, 255, 255); left: 21px; top: 9px; width: 8px; height: 3px;"></div><div class="minimap__icon minimap__icon_type_table" title="person" style="background-color: rgb(255, 255, 255); left: 32px; top: 1px; width: 8px; height: 4px;"></div><div class="minimap__icon minimap__icon_type_table" title="person_appearance" style="background-color: rgb(255, 255, 255); left: 32px; top: 6px; width: 8px; height: 5px;"></div><div class="minimap__icon minimap__icon_type_table" title="appearance_type" style="background-color: rgb(255, 255, 255); left: 32px; top: 13px; width: 8px; height: 4px;"></div><div class="minimap__icon minimap__icon_type_table" title="team_appearance" style="background-color: rgb(255, 255, 255); left: 5px; top: 1px; width: 8px; height: 27px;"></div><div class="minimap__icon minimap__icon_type_table" title="game" style="background-color: rgb(255, 255, 255); left: 20px; top: 14px; width: 8px; height: 11px;"></div><div class="minimap__icon minimap__icon_type_table" title="park" style="background-color: rgb(255, 255, 255); left: 33px; top: 19px; width: 8px; height: 6px;"></div></div><table data-table-name="team" class="entity-table ui-draggable" style="position: absolute; left: 497px; top: 36px; z-index: 1;"><thead>
+    <tr class="caption">
+        <th class="table-name" colspan="3">team</th>
+        <th class="table-ops">
+            <img src="./Major_league_baseball _ DbDesigner.net_files/table-edit-b4870113929f982983766275ce5a05d12718a36bdc05b9e0841ddb31d216dee9.png" alt="Edit table properties" class="edit-table">
+        </th>
+    </tr>
+    <tr class="comment hidden">
+        <th class="table-comment" colspan="4"><textarea readonly="readonly" class="table-comment-box" style="height: 4px;"></textarea></th>
+    </tr>
+    <tr class="edit-table">
+      <th colspan="4">
+        <span class="dummy dummy-down" tabindex="0"></span>
+        <label for="table-name" data-lang-text="designer.table_name">Table Name</label>
+        <input type="text" name="table-name" value="team" class="table-name">
+        <br>
+        <label for="table-comment" data-lang-text="designer.table_comment">Table Comment</label>
+        <textarea class="table-comment" rows="4"></textarea>
+        <br>
+        <br>
+        <input type="button" data-lang-value="designer.table_save" value="Save" class="save-edit-table btn">
+        <span class="action cancel-edit-table" data-lang-text="designer.table_cancel" tabindex="0">Cancel</span>
+        <span class="action delete-table danger" data-lang-text="designer.table_delete" tabindex="0">Delete Table</span>
+        <span class="dummy dummy-up" tabindex="0"></span>
+      </th>
+    </tr>
+</thead>
+<tbody class="ui-sortable">
+<tr data-field-name="team_id" class="tr"><td class="pk-field auto-increment not-null"><img src="./Major_league_baseball _ DbDesigner.net_files/key-0f0ed284afcf94f728410e720ca9ac84107d90a676864c780b0a3ddd70d8e58b.png"></td>
+<td>team_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="league_id" class="tr"><td class="fk-field not-null"></td>
+<td>league_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="city" class="tr"><td class="not-null"></td>
+<td>city</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="nickname" class="tr"><td class="not-null"></td>
+<td>nickname</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="franch_id" class="tr"><td class="not-null"></td>
+<td>franch_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr></tbody>
+<tfoot>
+    <tr>
+        <td colspan="4">
+            <div class="operations">
+                <img src="./Major_league_baseball _ DbDesigner.net_files/table-row-add-ff52abbbe3d087ba3b5cee3fda5614c92c2bc6f5ed5d0ab05129659688b924b5.png" alt="">
+                <span class="insert-field action" data-lang-text="designer.table_add_field">Add field</span>
+            </div>
+        <div class="insert-panel"><div class="insert-panel">
+    <span class="dummy dummy-down" tabindex="0"></span>
+
+    <label for="field-name" data-lang-text="designer.field_name">Name</label>
+    <input type="text" name="field-name" class="field-name">
+    <br>
+    <label for="field-type" data-lang-text="designer.field_type">Type</label>
+    <select class="field-type" name="field-type">
+      <option value="blob">blob</option>
+      <option value="datetime">datetime</option>
+      <option value="integer">integer</option>
+      <option value="text">text</option>
+      <option value="varchar">varchar</option>
+    </select>
+    <br>
+    <label for="field-size" data-lang-text="designer.field_size">Size</label>
+    <input type="text" name="field-size" class="field-size">
+    <br>
+    <label for="" data-lang-text="designer.field_default">Default</label>
+    <input type="text" name="field-default" class="field-default">
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-pk" class="checkbox field-pk"><span data-lang-text="designer.field_primary_key">Primary Key</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-null" class="checkbox field-null"><span data-lang-text="designer.field_allow_nulls">Allow nulls</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-unique" class="checkbox field-unique"><span data-lang-text="designer.field_unique">Unique</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-ai" class="checkbox field-ai"><span data-lang-text="designer.field_autoincrement">Auto Increment</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-fk" class="checkbox field-fk"><span data-lang-text="designer.field_foreign_key">Foreign Key</span>
+    </label>
+    <br>
+    <div class="refs" style="display: none;"><label for="field-ref-table">Ref. Table</label>
+<select class="field-ref-table">
+<option value="team">team</option></select>
+<br>
+<label for="field-ref-fields">Ref. Field</label>
+<select class="field-ref-fields">
+<option value="team_id">team_id</option><option value="league_id">league_id</option><option value="city">city</option><option value="nickname">nickname</option><option value="franch_id">franch_id</option></select>
+<br></div>
+    <br>
+    <input type="button" data-lang-value="designer.field_save" value="Save" class="btn save-button">
+    <span class="cancel-insert action" data-lang-text="designer.field_cancel" tabindex="0">Cancel</span>
+    <span class="dummy dummy-up" tabindex="0"></span>
+</div></div></td>
+    </tr>
+</tfoot></table><table data-table-name="league" class="entity-table ui-draggable" style="position: absolute; left: 499px; top: 208px; z-index: 2;"><thead>
+    <tr class="caption">
+        <th class="table-name" colspan="3">league</th>
+        <th class="table-ops">
+            <img src="./Major_league_baseball _ DbDesigner.net_files/table-edit-b4870113929f982983766275ce5a05d12718a36bdc05b9e0841ddb31d216dee9.png" alt="Edit table properties" class="edit-table">
+        </th>
+    </tr>
+    <tr class="comment hidden">
+        <th class="table-comment" colspan="4"><textarea readonly="readonly" class="table-comment-box" style="height: 4px;"></textarea></th>
+    </tr>
+    <tr class="edit-table">
+      <th colspan="4">
+        <span class="dummy dummy-down" tabindex="0"></span>
+        <label for="table-name" data-lang-text="designer.table_name">Table Name</label>
+        <input type="text" name="table-name" value="league" class="table-name">
+        <br>
+        <label for="table-comment" data-lang-text="designer.table_comment">Table Comment</label>
+        <textarea class="table-comment" rows="4"></textarea>
+        <br>
+        <br>
+        <input type="button" data-lang-value="designer.table_save" value="Save" class="save-edit-table btn">
+        <span class="action cancel-edit-table" data-lang-text="designer.table_cancel" tabindex="0">Cancel</span>
+        <span class="action delete-table danger" data-lang-text="designer.table_delete" tabindex="0">Delete Table</span>
+        <span class="dummy dummy-up" tabindex="0"></span>
+      </th>
+    </tr>
+</thead>
+<tbody class="ui-sortable">
+<tr data-field-name="league_id" class="tr"><td class="pk-field not-null"><img src="./Major_league_baseball _ DbDesigner.net_files/key-0f0ed284afcf94f728410e720ca9ac84107d90a676864c780b0a3ddd70d8e58b.png"></td>
+<td>league_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="league_name" class="tr"><td class="not-null"></td>
+<td>league_name</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr></tbody>
+<tfoot>
+    <tr>
+        <td colspan="4">
+            <div class="operations">
+                <img src="./Major_league_baseball _ DbDesigner.net_files/table-row-add-ff52abbbe3d087ba3b5cee3fda5614c92c2bc6f5ed5d0ab05129659688b924b5.png" alt="">
+                <span class="insert-field action" data-lang-text="designer.table_add_field">Add field</span>
+            </div>
+        <div class="insert-panel"><div class="insert-panel">
+    <span class="dummy dummy-down" tabindex="0"></span>
+
+    <label for="field-name" data-lang-text="designer.field_name">Name</label>
+    <input type="text" name="field-name" class="field-name">
+    <br>
+    <label for="field-type" data-lang-text="designer.field_type">Type</label>
+    <select class="field-type" name="field-type">
+      <option value="blob">blob</option>
+      <option value="datetime">datetime</option>
+      <option value="integer">integer</option>
+      <option value="text">text</option>
+      <option value="varchar">varchar</option>
+    </select>
+    <br>
+    <label for="field-size" data-lang-text="designer.field_size">Size</label>
+    <input type="text" name="field-size" class="field-size">
+    <br>
+    <label for="" data-lang-text="designer.field_default">Default</label>
+    <input type="text" name="field-default" class="field-default">
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-pk" class="checkbox field-pk"><span data-lang-text="designer.field_primary_key">Primary Key</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-null" class="checkbox field-null"><span data-lang-text="designer.field_allow_nulls">Allow nulls</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-unique" class="checkbox field-unique"><span data-lang-text="designer.field_unique">Unique</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-ai" class="checkbox field-ai"><span data-lang-text="designer.field_autoincrement">Auto Increment</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-fk" class="checkbox field-fk"><span data-lang-text="designer.field_foreign_key">Foreign Key</span>
+    </label>
+    <br>
+    <div class="refs" style="display: none;"><label for="field-ref-table">Ref. Table</label>
+<select class="field-ref-table">
+<option value="league">league</option><option value="team">team</option></select>
+<br>
+<label for="field-ref-fields">Ref. Field</label>
+<select class="field-ref-fields">
+<option value="league_id">league_id</option><option value="league_name">league_name</option></select>
+<br></div>
+    <br>
+    <input type="button" data-lang-value="designer.field_save" value="Save" class="btn save-button">
+    <span class="cancel-insert action" data-lang-text="designer.field_cancel" tabindex="0">Cancel</span>
+    <span class="dummy dummy-up" tabindex="0"></span>
+</div></div></td>
+    </tr>
+</tfoot></table><table data-table-name="person" class="entity-table ui-draggable" style="position: absolute; left: 775px; top: 36px; z-index: 3;"><thead>
+    <tr class="caption">
+        <th class="table-name" colspan="3">person</th>
+        <th class="table-ops">
+            <img src="./Major_league_baseball _ DbDesigner.net_files/table-edit-b4870113929f982983766275ce5a05d12718a36bdc05b9e0841ddb31d216dee9.png" alt="Edit table properties" class="edit-table">
+        </th>
+    </tr>
+    <tr class="comment hidden">
+        <th class="table-comment" colspan="4"><textarea readonly="readonly" class="table-comment-box" style="height: 4px;"></textarea></th>
+    </tr>
+    <tr class="edit-table">
+      <th colspan="4">
+        <span class="dummy dummy-down" tabindex="0"></span>
+        <label for="table-name" data-lang-text="designer.table_name">Table Name</label>
+        <input type="text" name="table-name" value="person" class="table-name">
+        <br>
+        <label for="table-comment" data-lang-text="designer.table_comment">Table Comment</label>
+        <textarea class="table-comment" rows="4"></textarea>
+        <br>
+        <br>
+        <input type="button" data-lang-value="designer.table_save" value="Save" class="save-edit-table btn">
+        <span class="action cancel-edit-table" data-lang-text="designer.table_cancel" tabindex="0">Cancel</span>
+        <span class="action delete-table danger" data-lang-text="designer.table_delete" tabindex="0">Delete Table</span>
+        <span class="dummy dummy-up" tabindex="0"></span>
+      </th>
+    </tr>
+</thead>
+<tbody class="ui-sortable">
+<tr data-field-name="person_id" class="tr"><td class="pk-field not-null"><img src="./Major_league_baseball _ DbDesigner.net_files/key-0f0ed284afcf94f728410e720ca9ac84107d90a676864c780b0a3ddd70d8e58b.png"></td>
+<td>person_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="first_name" class="tr"><td class="not-null"></td>
+<td>first_name</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="last_name" class="tr"><td class="not-null"></td>
+<td>last_name</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr></tbody>
+<tfoot>
+    <tr>
+        <td colspan="4">
+            <div class="operations">
+                <img src="./Major_league_baseball _ DbDesigner.net_files/table-row-add-ff52abbbe3d087ba3b5cee3fda5614c92c2bc6f5ed5d0ab05129659688b924b5.png" alt="">
+                <span class="insert-field action" data-lang-text="designer.table_add_field">Add field</span>
+            </div>
+        <div class="insert-panel"><div class="insert-panel">
+    <span class="dummy dummy-down" tabindex="0"></span>
+
+    <label for="field-name" data-lang-text="designer.field_name">Name</label>
+    <input type="text" name="field-name" class="field-name">
+    <br>
+    <label for="field-type" data-lang-text="designer.field_type">Type</label>
+    <select class="field-type" name="field-type">
+      <option value="blob">blob</option>
+      <option value="datetime">datetime</option>
+      <option value="integer">integer</option>
+      <option value="text">text</option>
+      <option value="varchar">varchar</option>
+    </select>
+    <br>
+    <label for="field-size" data-lang-text="designer.field_size">Size</label>
+    <input type="text" name="field-size" class="field-size">
+    <br>
+    <label for="" data-lang-text="designer.field_default">Default</label>
+    <input type="text" name="field-default" class="field-default">
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-pk" class="checkbox field-pk"><span data-lang-text="designer.field_primary_key">Primary Key</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-null" class="checkbox field-null"><span data-lang-text="designer.field_allow_nulls">Allow nulls</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-unique" class="checkbox field-unique"><span data-lang-text="designer.field_unique">Unique</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-ai" class="checkbox field-ai"><span data-lang-text="designer.field_autoincrement">Auto Increment</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-fk" class="checkbox field-fk"><span data-lang-text="designer.field_foreign_key">Foreign Key</span>
+    </label>
+    <br>
+    <div class="refs" style="display: none;"><label for="field-ref-table">Ref. Table</label>
+<select class="field-ref-table">
+<option value="league">league</option><option value="person">person</option><option value="team">team</option></select>
+<br>
+<label for="field-ref-fields">Ref. Field</label>
+<select class="field-ref-fields">
+<option value="league_id">league_id</option><option value="league_name">league_name</option></select>
+<br></div>
+    <br>
+    <input type="button" data-lang-value="designer.field_save" value="Save" class="btn save-button">
+    <span class="cancel-insert action" data-lang-text="designer.field_cancel" tabindex="0">Cancel</span>
+    <span class="dummy dummy-up" tabindex="0"></span>
+</div></div></td>
+    </tr>
+</tfoot></table><table data-table-name="person_appearance" class="entity-table ui-draggable" style="position: absolute; left: 774px; top: 141px; z-index: 4;"><thead>
+    <tr class="caption">
+        <th class="table-name" colspan="3">person_appearance</th>
+        <th class="table-ops">
+            <img src="./Major_league_baseball _ DbDesigner.net_files/table-edit-b4870113929f982983766275ce5a05d12718a36bdc05b9e0841ddb31d216dee9.png" alt="Edit table properties" class="edit-table">
+        </th>
+    </tr>
+    <tr class="comment hidden">
+        <th class="table-comment" colspan="4"><textarea readonly="readonly" class="table-comment-box" style="height: 4px;"></textarea></th>
+    </tr>
+    <tr class="edit-table">
+      <th colspan="4">
+        <span class="dummy dummy-down" tabindex="0"></span>
+        <label for="table-name" data-lang-text="designer.table_name">Table Name</label>
+        <input type="text" name="table-name" value="person_appearance" class="table-name">
+        <br>
+        <label for="table-comment" data-lang-text="designer.table_comment">Table Comment</label>
+        <textarea class="table-comment" rows="4"></textarea>
+        <br>
+        <br>
+        <input type="button" data-lang-value="designer.table_save" value="Save" class="save-edit-table btn">
+        <span class="action cancel-edit-table" data-lang-text="designer.table_cancel" tabindex="0">Cancel</span>
+        <span class="action delete-table danger" data-lang-text="designer.table_delete" tabindex="0">Delete Table</span>
+        <span class="dummy dummy-up" tabindex="0"></span>
+      </th>
+    </tr>
+</thead>
+<tbody class="ui-sortable">
+<tr data-field-name="appearance_id" class="tr"><td class="pk-field auto-increment not-null"><img src="./Major_league_baseball _ DbDesigner.net_files/key-0f0ed284afcf94f728410e720ca9ac84107d90a676864c780b0a3ddd70d8e58b.png"></td>
+<td>appearance_id</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="person_id" class="tr"><td class="fk-field not-null"></td>
+<td>person_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="team_id" class="tr"><td class="fk-field not-null"></td>
+<td>team_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="game_id" class="tr"><td class="fk-field not-null"></td>
+<td>game_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="appearance_type_id" class="tr"><td class="fk-field not-null"></td>
+<td>appearance_type_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr></tbody>
+<tfoot>
+    <tr>
+        <td colspan="4">
+            <div class="operations">
+                <img src="./Major_league_baseball _ DbDesigner.net_files/table-row-add-ff52abbbe3d087ba3b5cee3fda5614c92c2bc6f5ed5d0ab05129659688b924b5.png" alt="">
+                <span class="insert-field action" data-lang-text="designer.table_add_field">Add field</span>
+            </div>
+        <div class="insert-panel"><div class="insert-panel">
+    <span class="dummy dummy-down" tabindex="0"></span>
+
+    <label for="field-name" data-lang-text="designer.field_name">Name</label>
+    <input type="text" name="field-name" class="field-name">
+    <br>
+    <label for="field-type" data-lang-text="designer.field_type">Type</label>
+    <select class="field-type" name="field-type">
+      <option value="blob">blob</option>
+      <option value="datetime">datetime</option>
+      <option value="integer">integer</option>
+      <option value="text">text</option>
+      <option value="varchar">varchar</option>
+    </select>
+    <br>
+    <label for="field-size" data-lang-text="designer.field_size">Size</label>
+    <input type="text" name="field-size" class="field-size">
+    <br>
+    <label for="" data-lang-text="designer.field_default">Default</label>
+    <input type="text" name="field-default" class="field-default">
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-pk" class="checkbox field-pk"><span data-lang-text="designer.field_primary_key">Primary Key</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-null" class="checkbox field-null"><span data-lang-text="designer.field_allow_nulls">Allow nulls</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-unique" class="checkbox field-unique"><span data-lang-text="designer.field_unique">Unique</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-ai" class="checkbox field-ai"><span data-lang-text="designer.field_autoincrement">Auto Increment</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-fk" class="checkbox field-fk"><span data-lang-text="designer.field_foreign_key">Foreign Key</span>
+    </label>
+    <br>
+    <div class="refs" style="display: none;"><label for="field-ref-table">Ref. Table</label>
+<select class="field-ref-table">
+<option value="league">league</option><option value="person">person</option><option value="person_appearance">person_appearance</option><option value="team">team</option></select>
+<br>
+<label for="field-ref-fields">Ref. Field</label>
+<select class="field-ref-fields">
+<option value="league_id">league_id</option><option value="league_name">league_name</option></select>
+<br></div>
+    <br>
+    <input type="button" data-lang-value="designer.field_save" value="Save" class="btn save-button">
+    <span class="cancel-insert action" data-lang-text="designer.field_cancel" tabindex="0">Cancel</span>
+    <span class="dummy dummy-up" tabindex="0"></span>
+</div></div></td>
+    </tr>
+</tfoot></table><table data-table-name="appearance_type" class="entity-table ui-draggable" style="position: absolute; left: 777px; top: 317px; z-index: 5;"><thead>
+    <tr class="caption">
+        <th class="table-name" colspan="3">appearance_type</th>
+        <th class="table-ops">
+            <img src="./Major_league_baseball _ DbDesigner.net_files/table-edit-b4870113929f982983766275ce5a05d12718a36bdc05b9e0841ddb31d216dee9.png" alt="Edit table properties" class="edit-table">
+        </th>
+    </tr>
+    <tr class="comment hidden">
+        <th class="table-comment" colspan="4"><textarea readonly="readonly" class="table-comment-box" style="height: 4px;"></textarea></th>
+    </tr>
+    <tr class="edit-table">
+      <th colspan="4">
+        <span class="dummy dummy-down" tabindex="0"></span>
+        <label for="table-name" data-lang-text="designer.table_name">Table Name</label>
+        <input type="text" name="table-name" value="appearance_type" class="table-name">
+        <br>
+        <label for="table-comment" data-lang-text="designer.table_comment">Table Comment</label>
+        <textarea class="table-comment" rows="4"></textarea>
+        <br>
+        <br>
+        <input type="button" data-lang-value="designer.table_save" value="Save" class="save-edit-table btn">
+        <span class="action cancel-edit-table" data-lang-text="designer.table_cancel" tabindex="0">Cancel</span>
+        <span class="action delete-table danger" data-lang-text="designer.table_delete" tabindex="0">Delete Table</span>
+        <span class="dummy dummy-up" tabindex="0"></span>
+      </th>
+    </tr>
+</thead>
+<tbody class="ui-sortable">
+<tr data-field-name="appearance_type_id" class="tr"><td class="pk-field not-null"><img src="./Major_league_baseball _ DbDesigner.net_files/key-0f0ed284afcf94f728410e720ca9ac84107d90a676864c780b0a3ddd70d8e58b.png"></td>
+<td>appearance_type_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="name" class="tr"><td class="not-null"></td>
+<td>name</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="category" class="tr"><td class="not-null"></td>
+<td>category</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr></tbody>
+<tfoot>
+    <tr>
+        <td colspan="4">
+            <div class="operations">
+                <img src="./Major_league_baseball _ DbDesigner.net_files/table-row-add-ff52abbbe3d087ba3b5cee3fda5614c92c2bc6f5ed5d0ab05129659688b924b5.png" alt="">
+                <span class="insert-field action" data-lang-text="designer.table_add_field">Add field</span>
+            </div>
+        <div class="insert-panel"><div class="insert-panel">
+    <span class="dummy dummy-down" tabindex="0"></span>
+
+    <label for="field-name" data-lang-text="designer.field_name">Name</label>
+    <input type="text" name="field-name" class="field-name">
+    <br>
+    <label for="field-type" data-lang-text="designer.field_type">Type</label>
+    <select class="field-type" name="field-type">
+      <option value="blob">blob</option>
+      <option value="datetime">datetime</option>
+      <option value="integer">integer</option>
+      <option value="text">text</option>
+      <option value="varchar">varchar</option>
+    </select>
+    <br>
+    <label for="field-size" data-lang-text="designer.field_size">Size</label>
+    <input type="text" name="field-size" class="field-size">
+    <br>
+    <label for="" data-lang-text="designer.field_default">Default</label>
+    <input type="text" name="field-default" class="field-default">
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-pk" class="checkbox field-pk"><span data-lang-text="designer.field_primary_key">Primary Key</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-null" class="checkbox field-null"><span data-lang-text="designer.field_allow_nulls">Allow nulls</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-unique" class="checkbox field-unique"><span data-lang-text="designer.field_unique">Unique</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-ai" class="checkbox field-ai"><span data-lang-text="designer.field_autoincrement">Auto Increment</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-fk" class="checkbox field-fk"><span data-lang-text="designer.field_foreign_key">Foreign Key</span>
+    </label>
+    <br>
+    <div class="refs" style="display: none;"><label for="field-ref-table">Ref. Table</label>
+<select class="field-ref-table">
+<option value="appearance_type">appearance_type</option><option value="league">league</option><option value="person">person</option><option value="person_appearance">person_appearance</option><option value="team">team</option></select>
+<br>
+<label for="field-ref-fields">Ref. Field</label>
+<select class="field-ref-fields">
+<option value="appearance_type_id">appearance_type_id</option><option value="name">name</option><option value="category">category</option></select>
+<br></div>
+    <br>
+    <input type="button" data-lang-value="designer.field_save" value="Save" class="btn save-button">
+    <span class="cancel-insert action" data-lang-text="designer.field_cancel" tabindex="0">Cancel</span>
+    <span class="dummy dummy-up" tabindex="0"></span>
+</div></div></td>
+    </tr>
+</tfoot></table><table data-table-name="team_appearance" class="entity-table ui-draggable" style="position: absolute; left: 126px; top: 36px; z-index: 6;"><thead>
+    <tr class="caption">
+        <th class="table-name" colspan="3">team_appearance</th>
+        <th class="table-ops">
+            <img src="./Major_league_baseball _ DbDesigner.net_files/table-edit-b4870113929f982983766275ce5a05d12718a36bdc05b9e0841ddb31d216dee9.png" alt="Edit table properties" class="edit-table">
+        </th>
+    </tr>
+    <tr class="comment hidden">
+        <th class="table-comment" colspan="4"><textarea readonly="readonly" class="table-comment-box" style="height: 4px;"></textarea></th>
+    </tr>
+    <tr class="edit-table">
+      <th colspan="4">
+        <span class="dummy dummy-down" tabindex="0"></span>
+        <label for="table-name" data-lang-text="designer.table_name">Table Name</label>
+        <input type="text" name="table-name" value="team_appearance" class="table-name">
+        <br>
+        <label for="table-comment" data-lang-text="designer.table_comment">Table Comment</label>
+        <textarea class="table-comment" rows="4"></textarea>
+        <br>
+        <br>
+        <input type="button" data-lang-value="designer.table_save" value="Save" class="save-edit-table btn">
+        <span class="action cancel-edit-table" data-lang-text="designer.table_cancel" tabindex="0">Cancel</span>
+        <span class="action delete-table danger" data-lang-text="designer.table_delete" tabindex="0">Delete Table</span>
+        <span class="dummy dummy-up" tabindex="0"></span>
+      </th>
+    </tr>
+</thead>
+<tbody class="ui-sortable">
+<tr data-field-name="team_id" class="tr"><td class="pk-field fk-field not-null"><img src="./Major_league_baseball _ DbDesigner.net_files/key-0f0ed284afcf94f728410e720ca9ac84107d90a676864c780b0a3ddd70d8e58b.png"></td>
+<td>team_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="game_id" class="tr"><td class="pk-field fk-field not-null"><img src="./Major_league_baseball _ DbDesigner.net_files/key-0f0ed284afcf94f728410e720ca9ac84107d90a676864c780b0a3ddd70d8e58b.png"></td>
+<td>game_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="home" class="tr"><td class="not-null"></td>
+<td>home</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="league_id" class="tr"><td class="fk-field not-null"></td>
+<td>league_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="score" class="tr"><td class="not-null"></td>
+<td>score</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="line_score" class="tr"><td class="not-null"></td>
+<td>line_score</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="at_bats" class="tr"><td class="not-null"></td>
+<td>at_bats</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="hits" class="tr"><td class="not-null"></td>
+<td>hits</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="doubles" class="tr"><td class="not-null"></td>
+<td>doubles</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="triples" class="tr"><td class="not-null"></td>
+<td>triples</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="homeruns" class="tr"><td class="not-null"></td>
+<td>homeruns</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="rbi" class="tr"><td class="not-null"></td>
+<td>rbi</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="sacrifice_hits" class="tr"><td class="not-null"></td>
+<td>sacrifice_hits</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="sacrifice_flies" class="tr"><td class="not-null"></td>
+<td>sacrifice_flies</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="hit_by_pitch" class="tr"><td class="not-null"></td>
+<td>hit_by_pitch</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="walks" class="tr"><td class="not-null"></td>
+<td>walks</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="international_walks" class="tr"><td class="not-null"></td>
+<td>international_walks</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="strikeouts" class="tr"><td class="not-null"></td>
+<td>strikeouts</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="stolen_bases" class="tr"><td class="not-null"></td>
+<td>stolen_bases</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="caught_stealing" class="tr"><td class="not-null"></td>
+<td>caught_stealing</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="grounded_into_double" class="tr"><td class="not-null"></td>
+<td>grounded_into_double</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="first_catcher_interference" class="tr"><td class="not-null"></td>
+<td>first_catcher_interference</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="left_on_base" class="tr"><td class="not-null"></td>
+<td>left_on_base</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="pitchers_used" class="tr"><td class="not-null"></td>
+<td>pitchers_used</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="individual_earned_runs" class="tr"><td class="not-null"></td>
+<td>individual_earned_runs</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="team_earned_runs" class="tr"><td class="not-null"></td>
+<td>team_earned_runs</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="wild_pitches" class="tr"><td class="not-null"></td>
+<td>wild_pitches</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="balks" class="tr"><td class="not-null"></td>
+<td>balks</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="putouts" class="tr"><td class="not-null"></td>
+<td>putouts</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="assists" class="tr"><td class="not-null"></td>
+<td>assists</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="errors" class="tr"><td class="not-null"></td>
+<td>errors</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="passed_balls" class="tr"><td class="not-null"></td>
+<td>passed_balls</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="double_plays" class="tr"><td class="not-null"></td>
+<td>double_plays</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="triple_plays" class="tr"><td class="not-null"></td>
+<td>triple_plays</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr></tbody>
+<tfoot>
+    <tr>
+        <td colspan="4">
+            <div class="operations">
+                <img src="./Major_league_baseball _ DbDesigner.net_files/table-row-add-ff52abbbe3d087ba3b5cee3fda5614c92c2bc6f5ed5d0ab05129659688b924b5.png" alt="">
+                <span class="insert-field action" data-lang-text="designer.table_add_field">Add field</span>
+            </div>
+        <div class="insert-panel"><div class="insert-panel">
+    <span class="dummy dummy-down" tabindex="0"></span>
+
+    <label for="field-name" data-lang-text="designer.field_name">Name</label>
+    <input type="text" name="field-name" class="field-name">
+    <br>
+    <label for="field-type" data-lang-text="designer.field_type">Type</label>
+    <select class="field-type" name="field-type">
+      <option value="blob">blob</option>
+      <option value="datetime">datetime</option>
+      <option value="integer">integer</option>
+      <option value="text">text</option>
+      <option value="varchar">varchar</option>
+    </select>
+    <br>
+    <label for="field-size" data-lang-text="designer.field_size">Size</label>
+    <input type="text" name="field-size" class="field-size">
+    <br>
+    <label for="" data-lang-text="designer.field_default">Default</label>
+    <input type="text" name="field-default" class="field-default">
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-pk" class="checkbox field-pk"><span data-lang-text="designer.field_primary_key">Primary Key</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-null" class="checkbox field-null"><span data-lang-text="designer.field_allow_nulls">Allow nulls</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-unique" class="checkbox field-unique"><span data-lang-text="designer.field_unique">Unique</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-ai" class="checkbox field-ai"><span data-lang-text="designer.field_autoincrement">Auto Increment</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-fk" class="checkbox field-fk"><span data-lang-text="designer.field_foreign_key">Foreign Key</span>
+    </label>
+    <br>
+    <div class="refs" style="display: none;"><label for="field-ref-table">Ref. Table</label>
+<select class="field-ref-table">
+<option value="appearance_type">appearance_type</option><option value="league">league</option><option value="person">person</option><option value="person_appearance">person_appearance</option><option value="team">team</option><option value="team_appearance">team_appearance</option></select>
+<br>
+<label for="field-ref-fields">Ref. Field</label>
+<select class="field-ref-fields">
+<option value="appearance_type_id">appearance_type_id</option><option value="name">name</option><option value="category">category</option></select>
+<br></div>
+    <br>
+    <input type="button" data-lang-value="designer.field_save" value="Save" class="btn save-button">
+    <span class="cancel-insert action" data-lang-text="designer.field_cancel" tabindex="0">Cancel</span>
+    <span class="dummy dummy-up" tabindex="0"></span>
+</div></div></td>
+    </tr>
+</tfoot></table><table data-table-name="game" class="entity-table ui-draggable" style="position: absolute; left: 474px; top: 334px; z-index: 7;"><thead>
+    <tr class="caption">
+        <th class="table-name" colspan="3">game</th>
+        <th class="table-ops">
+            <img src="./Major_league_baseball _ DbDesigner.net_files/table-edit-b4870113929f982983766275ce5a05d12718a36bdc05b9e0841ddb31d216dee9.png" alt="Edit table properties" class="edit-table">
+        </th>
+    </tr>
+    <tr class="comment hidden">
+        <th class="table-comment" colspan="4"><textarea readonly="readonly" class="table-comment-box" style="height: 4px;"></textarea></th>
+    </tr>
+    <tr class="edit-table">
+      <th colspan="4">
+        <span class="dummy dummy-down" tabindex="0"></span>
+        <label for="table-name" data-lang-text="designer.table_name">Table Name</label>
+        <input type="text" name="table-name" value="game" class="table-name">
+        <br>
+        <label for="table-comment" data-lang-text="designer.table_comment">Table Comment</label>
+        <textarea class="table-comment" rows="4"></textarea>
+        <br>
+        <br>
+        <input type="button" data-lang-value="designer.table_save" value="Save" class="save-edit-table btn">
+        <span class="action cancel-edit-table" data-lang-text="designer.table_cancel" tabindex="0">Cancel</span>
+        <span class="action delete-table danger" data-lang-text="designer.table_delete" tabindex="0">Delete Table</span>
+        <span class="dummy dummy-up" tabindex="0"></span>
+      </th>
+    </tr>
+</thead>
+<tbody class="ui-sortable">
+<tr data-field-name="game_id" class="tr"><td class="pk-field not-null"><img src="./Major_league_baseball _ DbDesigner.net_files/key-0f0ed284afcf94f728410e720ca9ac84107d90a676864c780b0a3ddd70d8e58b.png"></td>
+<td>game_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="date" class="tr"><td class="not-null"></td>
+<td>date</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="number_of_game" class="tr"><td class="not-null"></td>
+<td>number_of_game</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="park_id" class="tr"><td class="fk-field not-null"></td>
+<td>park_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="length_id" class="tr"><td class="not-null"></td>
+<td>length_id</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="day" class="tr"><td class="not-null"></td>
+<td>day</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="completion" class="tr"><td class="not-null"></td>
+<td>completion</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="forfeit" class="tr"><td class="not-null"></td>
+<td>forfeit</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="protest" class="tr"><td class="not-null"></td>
+<td>protest</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="attendance" class="tr"><td class="not-null"></td>
+<td>attendance</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="length_minutes" class="tr"><td class="not-null"></td>
+<td>length_minutes</td>
+<td>integer </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="additional_info" class="tr"><td class="not-null"></td>
+<td>additional_info</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="acquisition_info" class="tr"><td class="not-null"></td>
+<td>acquisition_info</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr></tbody>
+<tfoot>
+    <tr>
+        <td colspan="4">
+            <div class="operations">
+                <img src="./Major_league_baseball _ DbDesigner.net_files/table-row-add-ff52abbbe3d087ba3b5cee3fda5614c92c2bc6f5ed5d0ab05129659688b924b5.png" alt="">
+                <span class="insert-field action" data-lang-text="designer.table_add_field">Add field</span>
+            </div>
+        <div class="insert-panel"><div class="insert-panel">
+    <span class="dummy dummy-down" tabindex="0"></span>
+
+    <label for="field-name" data-lang-text="designer.field_name">Name</label>
+    <input type="text" name="field-name" class="field-name">
+    <br>
+    <label for="field-type" data-lang-text="designer.field_type">Type</label>
+    <select class="field-type" name="field-type">
+      <option value="blob">blob</option>
+      <option value="datetime">datetime</option>
+      <option value="integer">integer</option>
+      <option value="text">text</option>
+      <option value="varchar">varchar</option>
+    </select>
+    <br>
+    <label for="field-size" data-lang-text="designer.field_size">Size</label>
+    <input type="text" name="field-size" class="field-size">
+    <br>
+    <label for="" data-lang-text="designer.field_default">Default</label>
+    <input type="text" name="field-default" class="field-default">
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-pk" class="checkbox field-pk"><span data-lang-text="designer.field_primary_key">Primary Key</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-null" class="checkbox field-null"><span data-lang-text="designer.field_allow_nulls">Allow nulls</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-unique" class="checkbox field-unique"><span data-lang-text="designer.field_unique">Unique</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-ai" class="checkbox field-ai"><span data-lang-text="designer.field_autoincrement">Auto Increment</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-fk" class="checkbox field-fk"><span data-lang-text="designer.field_foreign_key">Foreign Key</span>
+    </label>
+    <br>
+    <div class="refs" style="display: none;"><label for="field-ref-table">Ref. Table</label>
+<select class="field-ref-table">
+<option value="appearance_type">appearance_type</option><option value="game">game</option><option value="league">league</option><option value="person">person</option><option value="person_appearance">person_appearance</option><option value="team">team</option><option value="team_appearance">team_appearance</option></select>
+<br>
+<label for="field-ref-fields">Ref. Field</label>
+<select class="field-ref-fields">
+<option value="appearance_type_id">appearance_type_id</option><option value="name">name</option><option value="category">category</option></select>
+<br></div>
+    <br>
+    <input type="button" data-lang-value="designer.field_save" value="Save" class="btn save-button">
+    <span class="cancel-insert action" data-lang-text="designer.field_cancel" tabindex="0">Cancel</span>
+    <span class="dummy dummy-up" tabindex="0"></span>
+</div></div></td>
+    </tr>
+</tfoot></table><table data-table-name="park" class="entity-table ui-draggable" style="position: absolute; left: 782px; top: 448px; z-index: 8;"><thead>
+    <tr class="caption">
+        <th class="table-name" colspan="3">park</th>
+        <th class="table-ops">
+            <img src="./Major_league_baseball _ DbDesigner.net_files/table-edit-b4870113929f982983766275ce5a05d12718a36bdc05b9e0841ddb31d216dee9.png" alt="Edit table properties" class="edit-table">
+        </th>
+    </tr>
+    <tr class="comment hidden">
+        <th class="table-comment" colspan="4"><textarea readonly="readonly" class="table-comment-box" style="height: 4px;"></textarea></th>
+    </tr>
+    <tr class="edit-table">
+      <th colspan="4">
+        <span class="dummy dummy-down" tabindex="0"></span>
+        <label for="table-name" data-lang-text="designer.table_name">Table Name</label>
+        <input type="text" name="table-name" value="park" class="table-name">
+        <br>
+        <label for="table-comment" data-lang-text="designer.table_comment">Table Comment</label>
+        <textarea class="table-comment" rows="4"></textarea>
+        <br>
+        <br>
+        <input type="button" data-lang-value="designer.table_save" value="Save" class="save-edit-table btn">
+        <span class="action cancel-edit-table" data-lang-text="designer.table_cancel" tabindex="0">Cancel</span>
+        <span class="action delete-table danger" data-lang-text="designer.table_delete" tabindex="0">Delete Table</span>
+        <span class="dummy dummy-up" tabindex="0"></span>
+      </th>
+    </tr>
+</thead>
+<tbody class="ui-sortable">
+<tr data-field-name="park_id" class="tr"><td class="pk-field not-null"><img src="./Major_league_baseball _ DbDesigner.net_files/key-0f0ed284afcf94f728410e720ca9ac84107d90a676864c780b0a3ddd70d8e58b.png"></td>
+<td>park_id</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="name" class="tr"><td class="not-null"></td>
+<td>name</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="nickname" class="tr"><td class="not-null"></td>
+<td>nickname</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="city" class="tr"><td class="not-null"></td>
+<td>city</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="state" class="tr"><td class="not-null"></td>
+<td>state</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr><tr data-field-name="notes" class="tr"><td class="not-null"></td>
+<td>notes</td>
+<td>text </td>
+<td class="rightmost">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/edit-57084f464e212db93cba614c602ee7a883a87131916b7b0eef5471d5fbc1a6c3.png" alt="" class="edit-field">
+    <img src="./Major_league_baseball _ DbDesigner.net_files/updownp-c2606a4bd5314bb571aa22336c0c9756294c8fe817cceb78410bdc66da039c4c.png" alt="" class="mover">
+</td></tr></tbody>
+<tfoot>
+    <tr>
+        <td colspan="4">
+            <div class="operations">
+                <img src="./Major_league_baseball _ DbDesigner.net_files/table-row-add-ff52abbbe3d087ba3b5cee3fda5614c92c2bc6f5ed5d0ab05129659688b924b5.png" alt="">
+                <span class="insert-field action" data-lang-text="designer.table_add_field">Add field</span>
+            </div>
+        <div class="insert-panel"><div class="insert-panel">
+    <span class="dummy dummy-down" tabindex="0"></span>
+
+    <label for="field-name" data-lang-text="designer.field_name">Name</label>
+    <input type="text" name="field-name" class="field-name">
+    <br>
+    <label for="field-type" data-lang-text="designer.field_type">Type</label>
+    <select class="field-type" name="field-type">
+      <option value="blob">blob</option>
+      <option value="datetime">datetime</option>
+      <option value="integer">integer</option>
+      <option value="text">text</option>
+      <option value="varchar">varchar</option>
+    </select>
+    <br>
+    <label for="field-size" data-lang-text="designer.field_size">Size</label>
+    <input type="text" name="field-size" class="field-size">
+    <br>
+    <label for="" data-lang-text="designer.field_default">Default</label>
+    <input type="text" name="field-default" class="field-default">
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-pk" class="checkbox field-pk"><span data-lang-text="designer.field_primary_key">Primary Key</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-null" class="checkbox field-null"><span data-lang-text="designer.field_allow_nulls">Allow nulls</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-unique" class="checkbox field-unique"><span data-lang-text="designer.field_unique">Unique</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-ai" class="checkbox field-ai"><span data-lang-text="designer.field_autoincrement">Auto Increment</span>
+    </label>
+    <br>
+    <label class="cb-label">
+      <input type="checkbox" name="field-fk" class="checkbox field-fk"><span data-lang-text="designer.field_foreign_key">Foreign Key</span>
+    </label>
+    <br>
+    <div class="refs" style="display: none;"><label for="field-ref-table">Ref. Table</label>
+<select class="field-ref-table">
+<option value="appearance_type">appearance_type</option><option value="game">game</option><option value="league">league</option><option value="park">park</option><option value="person">person</option><option value="person_appearance">person_appearance</option><option value="team">team</option><option value="team_appearance">team_appearance</option></select>
+<br>
+<label for="field-ref-fields">Ref. Field</label>
+<select class="field-ref-fields">
+<option value="appearance_type_id">appearance_type_id</option><option value="name">name</option><option value="category">category</option></select>
+<br></div>
+    <br>
+    <input type="button" data-lang-value="designer.field_save" value="Save" class="btn save-button">
+    <span class="cancel-insert action" data-lang-text="designer.field_cancel" tabindex="0">Cancel</span>
+    <span class="dummy dummy-up" tabindex="0"></span>
+</div></div></td>
+    </tr>
+</tfoot></table></div>
+	<div class="resizer ui-draggable" style="display: none; right: 240px; height: 611px;"></div>
+	<div class="sidebar" style="width: 240px; display: none;"><div class="schema-properties panel"><div class="panel-header">
+	<i class="icon-down-open"></i>
+	<span class="panel-caption" data-lang-text="panel.properties">Properties</span>
+</div>
+<div class="panel-body">
+	<table class="property-table">
+		<tbody><tr>
+			<td class="property-label">
+				<span data-lang-text="panel.properties_schema_name">Schema Name:</span>
+			</td>
+			<td>
+				<span class="schema-title">Major_league_baseball</span>
+			</td>
+		</tr>
+		<tr>
+			<td class="property-label">
+				<span data-lang-text="panel.properties_database">Database:</span>
+			</td>
+			<td>
+				<span class="db-type label-default">sqlite</span>
+			</td>
+		</tr>
+	</tbody></table>
+</div></div>
+<div class="history panel"><div class="panel-header">
+	<i class="icon-down-open"></i>
+	<span class="panel-caption" data-lang-text="panel.history">History</span>
+</div>
+<div class="panel-body">
+		<span class="action" data-version-id="1091304">6/19/2018, 06:29:19</span><br>
+</div></div>
+<div class="comments panel"><div class="panel-header">
+	<i class="icon-down-open"></i>
+	<span class="panel-caption" data-lang-text="panel.comments">Comments</span>
+</div>
+<div class="panel-body">
+	<div class="new-comment">
+		<textarea rows="5" class="new-comment-content" placeholder="Enter your comment here"></textarea>
+		<button class="btn send-comment" data-lang-text="panel.send">Send</button>
+	</div>
+	<div class="comment-list" style="height: 242px;"></div>
+	<div class="comments-options">
+		<button class="btn refresh"><i class="icon-spin3"></i> Refresh Comment List</button>
+	</div>
+</div></div></div>
+	<div style="display: none">
+		<img id="cache-image-bg" src="./Major_league_baseball _ DbDesigner.net_files/canvas-background-382ddae37df2afda79a647cf643277cc012d079c989b71853f3b9c6f2908c167.png" alt="Canvas background">
+		<img id="cache-image-key" src="./Major_league_baseball _ DbDesigner.net_files/key-0f0ed284afcf94f728410e720ca9ac84107d90a676864c780b0a3ddd70d8e58b.png" alt="Key">
+		<img id="cache-image-key-ai" src="./Major_league_baseball _ DbDesigner.net_files/key_ai-24ad7604a9cd84fea26fb6d92893079145c7a266d772e7bed9f82814729f524e.png" alt="Key ai">
+		<img id="cache-image-fk" src="./Major_league_baseball _ DbDesigner.net_files/table_relationship-50286182fcbd7f9cd9dc4f2b496a9152552d43285cb97dcab3f88f08f16734b2.png" alt="Table relationship">
+		<img id="cache-image-nn" src="./Major_league_baseball _ DbDesigner.net_files/notnull-a34e5e8bb4c0ac6157b22a1eb4c4cc75e05b55b62cf81e9814d87dab335aef7e.png" alt="Notnull">
+		<img id="cache-image-ai" src="./Major_league_baseball _ DbDesigner.net_files/ai-5ad4475567db2451cc26ce4e7f53c0bd7c07ba5593377ce938eefe47da2c93cc.png" alt="Ai">
+		<img src="./Major_league_baseball _ DbDesigner.net_files/dbdesigner_logo_bw.png" id="cache-image-bw-logo">
+	</div>
+</div>
+<script>
+window.userinfo = {
+	login: false,
+	username: "Guest",
+	email: "nobody@dbdesigner.net",
+	avatar: "",
+	tmpid: "0"
+};
+window.renv = 'production';
+</script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-11380314-9', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+
+<div class="bg" style="display: none; opacity: 0.6; width: 1280px; height: 567px;"></div></body></html>
