@@ -29,6 +29,7 @@
 
 - Answering Business Decision Using SQL [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLdatabases/Project_%20Answering%20Business%20Questions%20using%20SQL%20)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/SQLdatabases/Project_%20Answering%20Business%20Questions%20using%20SQL%20/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
 
+- Designing and Creating a Database [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLdatabases/Project_%20Designing%20and%20Creating%20a%20Database)] [[ipynb]()]
 
 ### Probability and Statistics in Python
 - [[open dir]()] [[ipynb]()]
