@@ -32,8 +32,8 @@
 - Designing and Creating a Database [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLdatabases/Project_%20Designing%20and%20Creating%20a%20Database)] [[ipynb]()]
 
 ### Probability and Statistics in Python
-- [[open dir]()] [[ipynb]()]
-- [[open dir]()] [[ipynb]()]
+- Investigating Fandango Movie Ratings[[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/ProbalityAndStatistics/Project_%20Investigating%20Fandango%20Movie%20Ratings)] [[ipynb]()]
+- [[open dir]()] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/ProbalityAndStatistics/Project_%20Investigating%20Fandango%20Movie%20Ratings/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
 
 ### Machine Learning
 #### Linear Regression
