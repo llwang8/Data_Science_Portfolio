@@ -35,7 +35,7 @@
 - Investigating Fandango Movie Ratings[[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/ProbalityAndStatistics/Project_%20Investigating%20Fandango%20Movie%20Ratings)] [[ipynb]()]
 - [[open dir]()] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/ProbalityAndStatistics/Project_%20Investigating%20Fandango%20Movie%20Ratings/Basics.ipynb)]
 
-- Finding the Best Markets to Advertising in[[open dir]()] [[ipynb]()]
+- Finding the Best Markets to Advertising in[[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/ProbalityAndStatistics/Project_%20Finding%20the%20Best%20Markets%20to%20Advertise%20In)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/ProbalityAndStatistics/Project_%20Finding%20the%20Best%20Markets%20to%20Advertise%20In/Basics.ipynb)]
 
 ### Machine Learning
 #### Linear Regression
