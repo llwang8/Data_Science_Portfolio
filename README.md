@@ -5,7 +5,7 @@
 - Explore Gun Death in U.S. [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/PythonProgramming/Project_%20Exploring%20Gun%20Deaths%20in%20the%20US)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/PythonProgramming/Project_%20Exploring%20Gun%20Deaths%20in%20the%20US/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
 
 ### Data Structures And Algorithms
-- Investigating Airplane Accidents [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataStructuresAndAlgorithms/Project_%20Investigating%20Airplane%20Accidents)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataStructuresAndAlgorithms/Project_%20Investigating%20Airplane%20Accidents/Project_Investigating%20Airplane%20Accidents.ipynb)]
+- Investigating Airplane Accidents [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataStructuresAndAlgorithms/Project_%20Investigating%20Airplane%20Accidents)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataStructuresAndAlgorithms/Project_%20Investigating%20Airplane%20Accidents/Project_Investigating%20Airplane%20Accidents.ipynbin)]
 
 ### The Command Line
 - Working with Data Downloads [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/CommandLine/Project_%20Working%20With%20Data%20Downloads)]
@@ -21,7 +21,7 @@
 - Visualizing The Gender Gap in College Degrees [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/StorytellingThroughDataVisualization/Project_%20Visualizing%20The%20Gender%20Gap%20In%20College%20Degrees)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/StorytellingThroughDataVisualization/Project_%20Visualizing%20The%20Gender%20Gap%20In%20College%20Degrees/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
 
 ### Data Cleaning
-- Star War Surveys [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataCleaning/Guided%20Project_%20Star%20Wars%20Survey)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataCleaning/Guided%20Project_%20Star%20Wars%20Survey/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
+- Star War Surveys [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataCleaning/Project_%20Star%20Wars%20Survey)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataCleaning/Project_%20Star%20Wars%20Survey/Basics.ipynb)]
 - Analyzing New York City High School Data [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataCleaning/Project_%20Analyzing%20NYC%20High%20School%20Data)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataCleaning/Project_%20Analyzing%20NYC%20High%20School%20Data/.ipynb_checkpoints/Schools-checkpoint.ipynb)]
 
 ### SQL
