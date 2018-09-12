@@ -14,6 +14,9 @@
 ### Data Analysis with Pandas
 - Analyze Thanksgiving Dinner [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataAnalysisWithPandas/Project_%20Analyzing%20Thanksgiving%20Dinner)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataAnalysisWithPandas/Project_%20Analyzing%20Thanksgiving%20Dinner/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
 
+### Numpy and Pandas
+- Exploring Ebay Car Sales Data [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/NumpyAndPandas/Project_%20Exploring%20Ebay%20Car%20Sales%20Data)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/NumpyAndPandas/Project_%20Exploring%20Ebay%20Car%20Sales%20Data/Basics.ipynb)]
+
 ### Exploratory Data Visualization
 - Visualizing Earnings Based On College Majors [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/ExploratoryDataVisualization/Project_%20Visualizing%20Earnings%20Based%20On%20College%20Majors)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/ExploratoryDataVisualization/Project_%20Visualizing%20Earnings%20Based%20On%20College%20Majors/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
 
