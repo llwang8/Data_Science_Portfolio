@@ -5,7 +5,7 @@
 - Explore Gun Death in U.S. [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/PythonProgramming/Project_%20Exploring%20Gun%20Deaths%20in%20the%20US)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/PythonProgramming/Project_%20Exploring%20Gun%20Deaths%20in%20the%20US/.ipynb_checkpoints/Basics-checkpoint.ipynb)]
 
 ### Data Structures And Algorithms
-- Investigating Airplane Accidents [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataStructuresAndAlgorithms/Project_%20Investigating%20Airplane%20Accidents)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataStructuresAndAlgorithms/Project_%20Investigating%20Airplane%20Accidents/Project_Investigating%20Airplane%20Accidents.ipynbin)]
+- Investigating Airplane Accidents [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataStructuresAndAlgorithms/Project_%20Investigating%20Airplane%20Accidents)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataStructuresAndAlgorithms/Project_%20Investigating%20Airplane%20Accidents/Project_Investigating%20Airplane%20Accidents.ipynb)]
 
 ### The Command Line
 - Working with Data Downloads [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/CommandLine/Project_%20Working%20With%20Data%20Downloads)]
