@@ -1,3 +1,6 @@
+# Determine the percentage of enrollment that each race and gender
+# makes up.
+
 import pandas as pd
 
 enrollment = pd.read_csv('data/CRDC2013_14.csv', encoding='latin-1')
@@ -31,7 +34,7 @@ enrollment['AS'] = enrollment['SCH_ENR_AS_M'] + enrollment['SCH_ENR_AS_F']
 asian_ratio = enrollment['AS'].sum() / all_enrollment * 100
 print('Asian:  {0:.2f} %'.format(asian_ratio))
 
-      
+
 enrollment['HP'] = enrollment['SCH_ENR_HP_M'] + enrollment['SCH_ENR_HP_F']
 HP_ratio = enrollment['HP'].sum() / all_enrollment * 100
 print('Hawaiian / Pacific Islander:  {0:.2f} %'.format(HP_ratio))
@@ -43,16 +46,16 @@ print('Black:  {0:.2f} %'.format(black_ratio))
 
 
 enrollment['WH'] = enrollment['SCH_ENR_WH_M'] + enrollment['SCH_ENR_WH_F']
-white_ratio = enrollment['WH'].sum() / all_enrollment * 100      
+white_ratio = enrollment['WH'].sum() / all_enrollment * 100
 print('White:  {0:.2f} %'.format(white_ratio))
-      
-      
+
+
 enrollment['TR'] = enrollment['SCH_ENR_TR_M'] + enrollment['SCH_ENR_TR_F']
 TR_ratio = enrollment['TR'].sum() / all_enrollment * 100
 print('Two or More Races:  {0:.2f} %'.format(TR_ratio))
 
 
-# Gender and race differrnces in SAT Scores 
+# Gender and race differrnces in SAT Scores
 print('SAT Score Average Difference for Different Races')
 
 enrollment['SAT_HI'] = enrollment['SCH_SATACT_HI_M'] + enrollment['SCH_SATACT_HI_F']

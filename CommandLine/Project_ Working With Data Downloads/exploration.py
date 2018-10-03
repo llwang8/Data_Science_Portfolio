@@ -1,3 +1,6 @@
+# count up how many students are in magnet schools or
+# juvenile justice facilities.
+
 import pandas as pd
 
 data = pd.read_csv('data/CRDC2013_14.csv', encoding='Latin-1')
@@ -50,4 +53,3 @@ print('Magnet Percent by Respective Gender (M, F):')
 print(magnet_m_ratio)
 print(magnet_f_ratio)
 print('------------------')
-                    
