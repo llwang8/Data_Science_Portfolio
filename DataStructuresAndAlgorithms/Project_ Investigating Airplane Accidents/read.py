@@ -2,20 +2,28 @@
  The data in AviationData.txt file comes from the National Transportation Safety Board (NTSB) downloaded the file at data.gov.  This data set contains 77,282 aviation accidents that occurred in the U.S., and the metadata associated with them.
 
 """
+#=========================================================
+# Import libraries and read in data
 import re
 import math
 import operator
 
+# Read each line from .txt file into a list
 aviation_data = []
 with open('AviationData.txt') as f:
     for line in f:
         aviation_data.append(line)
 
+# Loop through each item in data and split it on the "|"
 aviation_list = []
 for item in aviation_data:
     aviation_list.append(item.split(' | '))
 #print(aviation_list[2])
 
+#=========================================================
+# Search through aviation_list for LAX94LA336.
+# This value could be in any column and in any row.
+# append the entire row to lax_code when value found.
 def search_exp():
     lax_code = []
     for row in aviation_list:
@@ -23,24 +31,25 @@ def search_exp():
             if re.search(r'LAX94LA336', item):
                 lax_code.append(row)
                 break
-    print('expo...')
+    print('Exponeential time to search ...')
+    print('Time complexity for this approach is O(n^2)')
     print(lax_code)
 
-#search_exp()
-# Time complexity for this approach is O(n^2)
-
-
+#=========================================================
+# A linear algorithm that searches each row in aviation_data
 def search_linear():
     lax_code = []
     for line in aviation_data:
         if 'LAX94LA336' in line:
             lax_code.append(line.split(' | '))
-    print('linear...')
+    print('Linear time to search ...')
     print(lax_code)
 
 #search_linear()
 
-
+#=========================================================
+# log(n) time algorithm that searches AviationData.txt
+# for the string LAX94LA336
 def search_log():
     lax_code = []
     aviation_list_s = sorted(aviation_list, key=lambda x: x[2])
@@ -59,18 +68,20 @@ def search_log():
         guess = aviation_list_s[index][2]
     if guess == 'LAX94LA336':
         lax_code.append(aviation_list_s[index])
-    print('log...')
+    print('log(n) time to search ...')
     print(lax_code)
 
 #search_log()
 
-# Create a dictionary for aviation data
+#==========================================================
+# Create a list of dictionary for aviation data with column
+# names as keys, their values as its own values.
 def list_dict(alist):
     dict_list = []
     columns = alist[0].split(' | ')
     length = len(columns)
     alist = alist[1:]
-    
+
     for line in alist:
         adict = {}
         line_list = line.split(' | ')
@@ -94,10 +105,16 @@ def search_dict_list(dict_list):
 
 #search_dict_list(aviation_dict_list)
 
+# Trade-offs between the different approaches?
+#
 # It is about the same to search through a list of dictionaries
-# as through a list of lists with respect to time complexity.  
+# as through a list of lists with respect to time complexity.
 # But list of dictionaries takes up more space.
 
+
+#=========================================================
+# Count up how many accidents occurred in each U.S. state,
+# find the name of the state with the most aviation accidents.
 def get_state_accidents():
     state_acc = {}
     for adict in aviation_dict_list:
@@ -111,30 +128,61 @@ def get_state_accidents():
 
 state_accidents = get_state_accidents()
 
+# sort state_accidents descendingly
 state_accidents = sorted(state_accidents.items(), key=operator.itemgetter(1), reverse=True)
 print('The State wit the most aviation accidents...')
 print(state_accidents[0][0])
+# Result:
 
-def injuries_by_month():
+#=========================================================
+# Count how many fatalities and serious injuries occured
+# during each unique month and year.
+
+def injuries_by_month_year():
     monthly_dict = {}
+    yearly_dict = {}
     for row in aviation_list:
-        month = row[3][3:5]
+        mdy = row[3].split('/')
+        month = mdy[0]
+        year = mdy[2]
+
+        # Total the fatalities and serious injuries by adding
+        # the numbers in the Total Fatal Injuries and Total
+        # Serious Injuries columns.
         fatal_n = 0 if row[23] is None else row[23]
         injury_n = 0 if row[24] is None else row[24]
-        if month in monthly_dict:
-            monthly_dict[month] += fatal_n + injury_n
-        else:
-            monthly_dict[month] = fatal_n + injury_n
-    #print(monthly_dict)
-    return monthly_dict
+        total_acc = fatal_n + injury_n
 
-monthly_injuries = injuries_by_month()
-monthly_injuries
+        if month in monthly_dict:
+            monthly_dict[month] += total_acc
+        else:
+            monthly_dict[month] = total_acc
+
+        if year in yearly_dict:
+            yearly_dict[year] += total_acc
+        else:
+            yearly_dict[year] = total_acc
+    #print(monthly_dict)
+    return (monthly_dict, yearly_dict)
+
+result = injuries_by_month()
+monthly_injuries = result[0]
+yearly_injuries = result[1]
 
 month_names_list = monthly_injuries.keys()
 print(month_names_list)
 
-injuries_num_list = monthly_injuries.values()
+injuries_by_month = monthly_injuries.values()
+injuries_by_year = yearly_dict.values()
+
+
+#=========================================================
+# Further Studies:
+
+# Map out accidents using the basemap library for matplotlib.
+# Count the number of accidents by air carrier.
+# Count the number of accidents by airplane make and model.
+# Figure out what percentage of accidents occur under adverse weather conditions.#
 
 
 
