@@ -18,6 +18,6 @@ Python, Pandas, Numpy, matplotlib, sqlite3 and Anaconda Jupyter Notebook.
 
 ### Project Guidelines Source
 
- Path - Dataquest Data Scientist
- Module - Working with Data Sources
+ Path - Dataquest Data Scientist\
+ Module - Working with Data Sources\
  Course - SQL Intermediate: Table Relations and Joins

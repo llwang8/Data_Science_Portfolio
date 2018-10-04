@@ -26,6 +26,6 @@ Python, Pandas, Numpy, dateutil, matplotlib, Terminal and Anaconda Jupyter Noteb
 
  Path - Dataquest Data Scientist\
  Module - Probability and Statistics\
- Course - Probability and Statistics in Python: Intermediate\
+ Course - Probability and Statistics in Python: Intermediate
 
 

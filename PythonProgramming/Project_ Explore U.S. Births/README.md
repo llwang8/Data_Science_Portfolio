@@ -12,6 +12,6 @@ Python, Numpy, matplotlib and Anaconda Jupyter Notebook.
 
 ### Project Guidelines Source
 
- Path - Dataquest Data Scientist
- Module - Python Intro
+ Path - Dataquest Data Scientist\
+ Module - Python Intro\
  Course - Python Programming: Beginner

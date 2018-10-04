@@ -16,8 +16,8 @@ Python, Pandas, Numpy, matplotlib, mpl_toolkits.basemap and Anaconda Jupyter Not
 
 ### Project Guidelines Source
 
- Path - Dataquest Data Scientist
- Module - Data Analysis and Visualization
+ Path - Dataquest Data Scientist\
+ Module - Data Analysis and Visualization\
  Course - Data Cleaning
 
 

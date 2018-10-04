@@ -17,6 +17,6 @@ Python, Pandas, Numpy, matplotlib, and Anaconda Jupyter Notebook.
 
 ### Project Guidelines Source
 
- Path - Dataquest Data Scientist
- Module - Advanced Python and Computer Science
+ Path - Dataquest Data Scientist\
+ Module - Advanced Python and Computer Science\
  Course - Data Structure and Algorithms

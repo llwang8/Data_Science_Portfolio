@@ -17,8 +17,8 @@ Python, Terminal
 
 ### Project Guidelines Source
 
- Path - Dataquest Data Scientist
- Module - The Command Line
+ Path - Dataquest Data Scientist\
+ Module - The Command Line\
  Course - The Command Line: Beginner
 
 

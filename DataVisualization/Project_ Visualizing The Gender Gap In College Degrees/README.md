@@ -5,7 +5,7 @@ The Department of Education Statistics releases a data set annually containing t
 
 This project aims to use matplotlib.pyplot to produce a grid of line charts comparing percentage of degrees awarded by gender and degree categories.
 
-![Gender Gap in College Degrees]('/gender_degree.png')
+![Gender Gap in College Degrees]('https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataVisualization/Project_%20Visualizing%20The%20Gender%20Gap%20In%20College%20Degrees/gender_degree.png')
 
 ### Built with:
 
@@ -14,6 +14,6 @@ Python, Numpy, matplotlib and Anaconda Jupyter Notebook.
 
 ### Project Guidelines Source
 
- Path - Dataquest Data Scientist
- Module - Data Analysis and Visualization
+ Path - Dataquest Data Scientist\
+ Module - Data Analysis and Visualization\
  Course - Storytelling Through Data Visualization

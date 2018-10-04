@@ -13,6 +13,6 @@ Python, Numpy, matplotlib and Anaconda Jupyter Notebook.
 
 ### Project Guidelines Source
 
- Path - Dataquest Data Scientist
- Module - Data Analysis and Visualization
+ Path - Dataquest Data Scientist\
+ Module - Data Analysis and Visualization\
  Course - Pandas and Numpy Fundamentals

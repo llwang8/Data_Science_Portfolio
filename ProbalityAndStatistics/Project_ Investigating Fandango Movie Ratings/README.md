@@ -25,7 +25,7 @@ Python, Pandas, Numpy, matplotlib, and Anaconda Jupyter Notebook.
 
 ### Project Guidelines Source
 
- Path - Dataquest Data Scientist
- Module - Probability and Statistics
+ Path - Dataquest Data Scientist\
+ Module - Probability and Statistics\
  Course - Statistics Fundamentals
 
