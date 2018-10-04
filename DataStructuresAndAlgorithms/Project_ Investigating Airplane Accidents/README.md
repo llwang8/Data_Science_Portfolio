@@ -1,15 +1,22 @@
 ## Project
-# Explore Airplane Accidents
+# Investigating Airplane Accidents
 
-The data in AviationData.txt file comes from the National Transportation Safety Board (NTSB), which was downloaded at data.gov. This data set contains 77,282 aviation accidents that occurred in the U.S., and the metadata associated with them.
+In this project, I work with a data set of airplane accident statistics to analyze patterns and look for any common threads.
 
-Accidents are an unfortunate fact of air travel. Although flying is statistically safer than driving, minor and major flying accidents occur daily. In this project, I am using this data set of airplane accident statistics to analyze patterns and look for any common threads.
+The  data set that contains 77,282 aviation accidents that occurred in the U.S., and the metadata associated with them. The data in AviationData.txt file download at data.gov comes from the National Transportation Safety Board (NTSB).
+
+I experiment with brute force search, linear search and log search for special value in the aviation data.
+I use dictionary data structure to count up how many accidents occurred in each U.S. state and find the name of the state with the most aviation accidents.
+I also use dictionary data structure to count how many fatalities and serious injuries occured during each unique month and year.
+
 
 ### Built with:
 
-Implemented with Python and libraries, numpy, mpl_toolkits.basemap, matplotlib and Anaconda Jupyter Notebook.
+Python, Pandas, Numpy, matplotlib, and Anaconda Jupyter Notebook.
 
 
-### Resources
+### Project Guidelines Source
 
-Project guidelines come from Dataquest Course - Data Structure and Algorithm
+ Path - Dataquest Data Scientist
+ Module - Advanced Python and Computer Science
+ Course - Data Structure and Algorithms
