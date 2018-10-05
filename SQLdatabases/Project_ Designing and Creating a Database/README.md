@@ -4,10 +4,11 @@
 This project works with a file of Major League Baseball games from Retrosheet, which compiles detailed statistics on baseball games from the 1800s through to today.
 
 This project aims to accomplish:
-- Import data into SQLite
-- Design a normalized database schema
-- Create tables for our schema
-- Insert data into our schema
+- Import CSV data into a database.
+- Design a normalized schema for a large, predominantly single table data set.
+- Create tables that match the schema design.
+- Migrate data from unnormalized tables into normalized tables
+
 
 
 ### Built with:
