@@ -8,7 +8,7 @@ I wrote python scripts to answer some main questions:
 - What domains were submitted most often to Hacker News?
 - At what times are the most articles submitted?
 
-I use read.py to create a load_data function to read in csv file and set columns corrrecly and return dataframe.  Other python scripts would import this script to use the load_data function to get datafram to work with.
+I use read.py to create a load_data function to read in csv file and set columns correctly and return dataframe.  Other python scripts would import this script to use the load_data function to get datafram to work with.
 
 I use count.py to first comine all headlines into one string, process the headline string by lowercasing all words, removing special characters and splitting into a word list. Then use Counter Class’s most_common function to find the 100 words most offen appear in Headlines.
 

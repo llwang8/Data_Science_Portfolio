@@ -2,8 +2,7 @@
 
 ### Python Programming
 - Explore U.S. Births [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/PythonProgramming/Project_%20Explore%20U.S.%20Births)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/PythonProgramming/Project_%20Explore%20U.S.%20Births/Basics.ipynb)]\
-Use python programming skills to analyze births data compiled by
-FiveThirtyEight by year, month, week, day of the month and day of the week.
+Use python programming skills to analyze births data distribution and statistics by year, month, week, day of the month and day of the week.
 
 - Explore Gun Death in U.S. [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/PythonProgramming/Project_%20Exploring%20Gun%20Deaths%20in%20the%20US)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/PythonProgramming/Project_%20Exploring%20Gun%20Deaths%20in%20the%20US/Basics.ipynb)]\
 Uncover patterns in the demographics of the gun death victims by using Python to compile gun deaths and homicide distribution in relation to year, month, date, gender, race, education and location.
@@ -17,11 +16,11 @@ Use Python to experiment with different search algorithms for special value in t
 Unzip command on an archive file to extract the 2 csv files within it.  Read in csv files in read.py.  Use the pandas.pivot_table() function to create a pivot table to aggregate school enrollment by gender and by school type (magnet schools or juvenile justice facilities) in exploration.py.  Compute the percentage of enrollment that each race and gender makes up by dividing the respective sums by total enrollment in enrollment.py.
 
 - Transforming Data With Python [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/CommandLine/Project_%20Transforming%20data%20with%20Python)]\
-Use different Python scripts to transform data to uncover insights. Create a load_data function to read in csv file and return dataframe in read.py.  Process headlines string to find the 100 words most offen appear in headlines in count.py.  Remove subdomain and sort domains to find domains most offen submitted in domain.py.  Use parse function from dateutil library‘s parser module to get hour of the article submitted so as to find when the most articles are submitted in time.py.
+Use different Python scripts to transform data to uncover insights. Create a load_data function to read in csv file and return dataframe in read.py.  Process headline string to find the 100 words most offen appear in headlines in count.py.  Remove subdomain and sort domains to find domains most offen submitted in domain.py.  Use parse function from dateutil library‘s parser module to get hour of the article submitted so as to find when the most articles are submitted in time.py.
 
 ### Data Analysis with Pandas and Numpy
 - Analyze Thanksgiving Dinner [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataAnalysisWithPandasNumpy/Project_%20Analyzing%20Thanksgiving%20Dinner)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataAnalysisWithPandasNumpy/Project_%20Analyzing%20Thanksgiving%20Dinner/Basics.ipynb)]\
-Use Pandas to discover regional and income-based patterns in what Americans eat for Thanksgiving dinner.
+Use Pandas to discover region and income-based patterns in what Americans eat for Thanksgiving dinner.
 
 - Exploring Ebay Car Sales Data [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataAnalysisWithPandasNumpy/Project_%20Exploring%20Ebay%20Car%20Sales%20Data)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataAnalysisWithPandasNumpy/Project_%20Exploring%20Ebay%20Car%20Sales%20Data/Basics.ipynb)]\
 Use Pandas to clean up the data and analyze the included used car listings so as to find the most common brand/model combination, and correlation of average price to different odoemeter bin groups.
@@ -44,7 +43,7 @@ Explore relationships between SAT scores and demographic factors in New York Cit
 - Analyzing CIA Factbook Data with SQLite and Python [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLDatabases/Project_%20Analyzing%20CIA%20Factbook%20Data%20Using%20SQLite%20and%20Python)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/SQLDatabases/Project_%20Analyzing%20CIA%20Factbook%20Data%20Using%20SQLite%20and%20Python/Basics.ipynb)]\
 Use Pandas to execute SQL queries to summerize population statistics, find outliers, exam population density and explore ratio of water to land distribution.
 
-- Answering Business Decision Using Advanced SQL [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLDatabases/Project_%20Answering%20Business%20Questions%20using%20SQL%20)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/SQLDatabases/Project_%20Answering%20Business%20Questions%20using%20SQL%20/Basics.ipynb)]\
+- Answering Business Decision Using SQL [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLDatabases/Project_%20Answering%20Business%20Questions%20using%20SQL%20)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/SQLDatabases/Project_%20Answering%20Business%20Questions%20using%20SQL%20/Basics.ipynb)]\
 Use Pandas to execute SQL queries to help business with questions such as
 choosing purchase strategies and evaluating sales performance.   Develop SQL queries using subqueries, multiple joins, set operations, aggregate function, views and case statement.
 
@@ -54,10 +53,10 @@ Import CSV data into a database.  Design a normalized schema for a large, predom
 ### Probability and Statistics in Python
 - Investigating Fandango Movie Ratings[[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/ProbalityAndStatistics/Project_%20Investigating%20Fandango%20Movie%20Ratings)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/ProbalityAndStatistics/Project_%20Investigating%20Fandango%20Movie%20Ratings/Basics.ipynb)]\
 Use Kernal Density Plot to compare the distribution of both movie rating samples.  Compute statistics for both samples and plot them on bar graph to compare.
-The analysis above helps to determin if the two Fandango movie rating samples are the same or different.
+The analysis above helps to determin if Fandango movie rating before and after Hickey’s discrpancy findings are the same or different.
 
 - Finding the Best Markets to Advertising in[[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/ProbalityAndStatistics/Project_%20Finding%20the%20Best%20Markets%20to%20Advertise%20In)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/ProbalityAndStatistics/Project_%20Finding%20the%20Best%20Markets%20to%20Advertise%20In/Basics.ipynb)]\
-Exam if survey is representative of the population of interest before compiling relative frequency distribution by countries to compare new coders in different countries.  Investigate outliers and remove them before using boxplot to illustrate distribution of money spent per country per month to pinpoint the best markets to advertise in for a fictional e-learning company.
+Exam if FreeCodeCamp’s survey is representative of the population of interest before compiling relative frequency distribution by countries to compare new coders in different countries.  Investigate outliers and remove them before using boxplot to illustrate distribution of money spent per country per month to pinpoint the best markets to advertise in for a fictional e-learning company.
 
 ### Machine Learning
 #### Linear Regression

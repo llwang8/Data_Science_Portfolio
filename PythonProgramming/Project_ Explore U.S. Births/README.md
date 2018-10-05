@@ -3,7 +3,7 @@
 
 The dataset on births in the U.S. was compiled by FiveThirtyEight.
 
-This project aims to use python programming skills to analyze births data by year, month, week, day of the month and day of the week.
+This project aims to use python programming skills to analyze births data distribution and statistics by year, month, week, day of the month and day of the week.
 
 ### Built with:
 
