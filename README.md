@@ -43,7 +43,7 @@ Explore relationships between SAT scores and demographic factors in New York Cit
 - <b>Analyzing CIA Factbook Data with SQLite and Python</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLDatabases/Project_%20Analyzing%20CIA%20Factbook%20Data%20Using%20SQLite%20and%20Python)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/SQLDatabases/Project_%20Analyzing%20CIA%20Factbook%20Data%20Using%20SQLite%20and%20Python/Basics.ipynb)]\
 Use Pandas to execute SQL queries to summerize population statistics, find outliers, exam population density and explore ratio of water to land distribution.
 
-- <b>Answering Business Decision Using SQL</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLDatabases/Project_%20Answering%20Business%20Questions%20using%20SQL%20)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/SQLDatabases/Project_%20Answering%20Business%20Questions%20using%20SQL%20/Basics.ipynb)]\
+- <b>Answering Business Decision Using SQL</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLdatabases/Project_%20Answering%20Business%20Questions%20using%20SQL)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/SQLDatabases/Project_%20Answering%20Business%20Questions%20using%20SQL%20/Basics.ipynb)]\
 Use Pandas to execute SQL queries to help business with questions such as
 choosing purchase strategies and evaluating sales performance.   Develop SQL queries using subqueries, multiple joins, set operations, aggregate function, views and case statement.
 
