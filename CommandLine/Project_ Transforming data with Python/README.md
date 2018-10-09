@@ -19,7 +19,7 @@ I use time.py to find out when the most articles are submitted. One easy way to 
 
 ### Built with:
 
-Python, Pandas, Numpy, dateutil, matplotlib, Terminal and Anaconda Jupyter Notebook.
+Python, Dateutil, Terminal.
 
 
 ### Project Guidelines Source
