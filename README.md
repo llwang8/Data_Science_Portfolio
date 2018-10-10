@@ -58,6 +58,9 @@ The analysis above helps to determin if Fandango movie rating before and after H
 - <b>Finding the Best Markets to Advertising in</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/ProbalityAndStatistics/Project_%20Finding%20the%20Best%20Markets%20to%20Advertise%20In)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/ProbalityAndStatistics/Project_%20Finding%20the%20Best%20Markets%20to%20Advertise%20In/Basics.ipynb)]\
 Exam if FreeCodeCamp’s survey is representative of the population of interest before compiling relative frequency distribution by countries to compare new coders in different countries.  Investigate outliers and remove them before using boxplot to illustrate distribution of money spent per country per month to pinpoint the best markets to advertise in for a fictional e-learning company.
 
+- <b>Winning Jeopardy!</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/ProbalityAndStatistics/Project_%20Winning%20Jeopardy)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/ProbalityAndStatistics/Project_%20Winning%20Jeopardy/Basics.ipynb)]\
+Using Python, Pandas, Numpy and Scipy to analyze Jeopardy dataset to exam claims of using past questions to prepare for future episodes or answers could be hidden in questions.
+
 ### Machine Learning
 #### Linear Regression
 - [[open dir]()] [[ipynb]()]
