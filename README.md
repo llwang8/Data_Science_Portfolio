@@ -16,14 +16,14 @@ Use Python to experiment with different search algorithms for special value in t
 Unzip command on an archive file to extract the 2 csv files within it.  Read in csv files in read.py.  Use the pandas.pivot_table() function to create a pivot table to aggregate school enrollment by gender and by school type (magnet schools or juvenile justice facilities) in exploration.py.  Compute the percentage of enrollment that each race and gender makes up by dividing the respective sums by total enrollment in enrollment.py.
 
 - <b>Transforming Data With Python</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/CommandLine/Project_%20Transforming%20data%20with%20Python)]\
-Use different Python scripts to transform data to uncover insights. Create a load_data function to read in csv file and return dataframe in read.py.  Process headline string to find the 100 words most offen appear in headlines in count.py.  Remove subdomain and sort domains to find domains most offen submitted in domain.py.  Use parse function from dateutil library‘s parser module to get hour of the article submitted so as to find when the most articles are submitted in time.py.
+Use different Python scripts to transform data to uncover insights. Create a load_data function to read in csv file and return dataframe in read.py.  Process headline string to find the 100 words most often appear in headlines in count.py.  Remove subdomain and sort domains to find domains most often submitted in domain.py.  Use parse function from dateutil library‘s parser module to get hour of the article submitted so as to find when the most articles are submitted in time.py.
 
 ### Data Analysis with Pandas and Numpy
 - <b>Analyze Thanksgiving Dinner</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataAnalysisWithPandasNumpy/Project_%20Analyzing%20Thanksgiving%20Dinner)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataAnalysisWithPandasNumpy/Project_%20Analyzing%20Thanksgiving%20Dinner/Basics.ipynb)]\
 Use Pandas to discover region and income-based patterns in what Americans eat for Thanksgiving dinner.
 
 - <b>Exploring Ebay Car Sales Data</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataAnalysisWithPandasNumpy/Project_%20Exploring%20Ebay%20Car%20Sales%20Data)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataAnalysisWithPandasNumpy/Project_%20Exploring%20Ebay%20Car%20Sales%20Data/Basics.ipynb)]\
-Use Pandas to clean up the data and analyze the included used car listings so as to find the most common brand/model combination, and correlation of average price to different odoemeter bin groups.
+Use Pandas to clean up the data and analyze the included used car listings so as to find the most common brand/model combination, and correlation of average price to different odometer bin groups.
 
 ### Data Visualization
 - <b>Visualizing Earnings Based On College Majors</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataVisualization/Project_%20Visualizing%20Earnings%20Based%20On%20College%20Majors)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataVisualization/Project_%20Visualizing%20Earnings%20Based%20On%20College%20Majors/.ipynb_checkpoints/Basics-checkpoint.ipynb)]\
@@ -34,14 +34,14 @@ Use matplotlib to produce a grid of line charts comparing percentage of degrees 
 
 ### Data Cleaning
 - <b>Star War Surveys</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataCleaning/Project_%20Star%20Wars%20Survey)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataCleaning/Project_%20Star%20Wars%20Survey/Basics.ipynb)]\
-Use Pandas to clean up survey data, which involves removing invalid rows, converting columns to different data type and renaming columns.  Then proceed to explore the dataset to compare total viewership and ranking of different star war episodes by different demograpic factors and fan or not.
+Use Pandas to clean up survey data, which involves removing invalid rows, converting columns to different data type and renaming columns.  Then proceed to explore the dataset to compare total viewership and ranking of different star war episodes by different demographic factors and fan or not.
 
 - <b>Analyzing New York City High School Data</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataCleaning/Project_%20Analyzing%20NYC%20High%20School%20Data)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataCleaning/Project_%20Analyzing%20NYC%20High%20School%20Data/Schools.ipynb)]\
 Explore relationships between SAT scores and demographic factors in New York City public schools.  Use Pandas to clean up dataset to prepare it for further analysis, which involves dataframe's corr() function for correlation studies, mpl_toolkits.basemap to map out factors to differentiate school, bar plot and scatter plot to display demographic difference in SAT performance.
 
 ### Analyzing Data Using SQL
 - <b>Analyzing CIA Factbook Data with SQLite and Python</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLDatabases/Project_%20Analyzing%20CIA%20Factbook%20Data%20Using%20SQLite%20and%20Python)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/SQLDatabases/Project_%20Analyzing%20CIA%20Factbook%20Data%20Using%20SQLite%20and%20Python/Basics.ipynb)]\
-Use Pandas to execute SQL queries to summerize population statistics, find outliers, exam population density and explore ratio of water to land distribution.
+Use Pandas to execute SQL queries to summarize population statistics, find outliers, exam population density and explore ratio of water to land distribution.
 
 - <b>Answering Business Decision Using SQL</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLdatabases/Project_%20Answering%20Business%20Questions%20using%20SQL)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/SQLDatabases/Project_%20Answering%20Business%20Questions%20using%20SQL%20/Basics.ipynb)]\
 Use Pandas to execute SQL queries to help business with questions such as
@@ -52,8 +52,8 @@ Import CSV data into a database.  Design a normalized schema for a large, predom
 
 ### Probability and Statistics in Python
 - <b>Investigating Fandango Movie Ratings</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/ProbalityAndStatistics/Project_%20Investigating%20Fandango%20Movie%20Ratings)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/ProbalityAndStatistics/Project_%20Investigating%20Fandango%20Movie%20Ratings/Basics.ipynb)]\
-Use Kernal Density Plot to compare the distribution of both movie rating samples.  Compute statistics for both samples and plot them on bar graph to compare.
-The analysis above helps to determin if Fandango movie rating before and after Hickey’s discrpancy findings are the same or different.
+Use Kernel Density Plot to compare the distribution of both movie rating samples.  Compute statistics for both samples and plot them on bar graph to compare.
+The analysis above helps to determin if Fandango movie rating before and after Hickey’s discrepancy findings are the same or different.
 
 - <b>Finding the Best Markets to Advertising in</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/ProbalityAndStatistics/Project_%20Finding%20the%20Best%20Markets%20to%20Advertise%20In)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/ProbalityAndStatistics/Project_%20Finding%20the%20Best%20Markets%20to%20Advertise%20In/Basics.ipynb)]\
 Exam if FreeCodeCamp’s survey is representative of the population of interest before compiling relative frequency distribution by countries to compare new coders in different countries.  Investigate outliers and remove them before using boxplot to illustrate distribution of money spent per country per month to pinpoint the best markets to advertise in for a fictional e-learning company.
