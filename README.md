@@ -53,7 +53,7 @@ Import CSV data into a database.  Design a normalized schema for a large, predom
 ### Probability and Statistics in Python
 - <b>Investigating Fandango Movie Ratings</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/ProbalityAndStatistics/Project_%20Investigating%20Fandango%20Movie%20Ratings)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/ProbalityAndStatistics/Project_%20Investigating%20Fandango%20Movie%20Ratings/Basics.ipynb)]\
 Use Kernel Density Plot to compare the distribution of both movie rating samples.  Compute statistics for both samples and plot them on bar graph to compare.
-The analysis above helps to determin if Fandango movie rating before and after Hickey’s discrepancy findings are the same or different.
+The analysis above helps to determine if Fandango movie rating before and after Hickey’s discrepancy findings are the same or different.
 
 - <b>Finding the Best Markets to Advertising in</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/ProbalityAndStatistics/Project_%20Finding%20the%20Best%20Markets%20to%20Advertise%20In)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/ProbalityAndStatistics/Project_%20Finding%20the%20Best%20Markets%20to%20Advertise%20In/Basics.ipynb)]\
 Exam if FreeCodeCamp’s survey is representative of the population of interest before compiling relative frequency distribution by countries to compare new coders in different countries.  Investigate outliers and remove them before using boxplot to illustrate distribution of money spent per country per month to pinpoint the best markets to advertise in for a fictional e-learning company.
