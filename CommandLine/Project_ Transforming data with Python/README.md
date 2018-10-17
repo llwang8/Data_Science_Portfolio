@@ -10,11 +10,11 @@ I wrote python scripts to answer some main questions:
 
 I use read.py to create a load_data function to read in csv file and set columns correctly and return dataframe.  Other python scripts would import this script to use the load_data function to get datafram to work with.
 
-I use count.py to first comine all headlines into one string, process the headline string by lowercasing all words, removing special characters and splitting into a word list. Then use Counter Class’s most_common function to find the 100 words most offen appear in Headlines.
+I use count.py to first combine all headlines into one string, process the headline string by lowercasing all words, removing special characters and splitting into a word list. Then use Counter Class’s most_common function to find the 100 words most offen appear in Headlines.
 
-I use domain.py to first create a function to remove subdomain.  Then apply the function to “url’ series to remove subdomains.  I use value_counts to sort domains by occurance.  Print the first 100 domains of the result to find domains most offen submitted.
+I use domain.py to first create a function to remove subdomain.  Then apply the function to “url’ series to remove subdomains.  I use value_counts to sort domains by occurrence.  Print the first 100 domains of the result to find domains most often submitted.
 
-I use time.py to find out when the most articles are submitted. One easy way to reframe this is to look at what hour articles are submitted. Use parse function from dateutil library‘s parser module on the submission_time column to get hour of the article submitted.  Use the pandas apply method to make a column of submission hour.  Finally I use the value_counts method to find the number of occurences of each hour.
+I use time.py to find out when the most articles are submitted. One easy way to reframe this is to look at what hour articles are submitted. Use parse function from dateutil library‘s parser module on the submission_time column to get hour of the article submitted.  Use the pandas apply method to make a column of submission hour.  Finally I use the value_counts method to find the number of occurrences of each hour.
 
 
 ### Built with:
