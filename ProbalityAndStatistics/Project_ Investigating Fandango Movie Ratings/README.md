@@ -12,7 +12,7 @@ One of Dataquest's team members collected movie ratings data for movies released
 
 After  reading the README.md files of the two repositories, I figure out the two samples are not entirely random or representative for the respective population it is trying to describe.  Therefore, my new goal is to determine whether there is any difference between Fandango's ratings for popular movie in 2015 and Fandango's ratings for popular movie in 2016. The new goal is still a fairly good proxy for my initial goal.
 
-I use Kernal Density Plot to compare the distribution of both samples, exam the relative frequencies of both distribution, compute mean, median and mode for both samples and plot them on bar graph to compare.
+I use Kernel Density Plot to compare the distribution of both samples, exam the relative frequencies of both distribution, compute mean, median and mode for both samples and plot them on bar graph to compare.
 The analysis above indicates there is a slight difference between Fandango's ratings for popular movies in 2015 and Fandango's ratings for popular movies in 2016.  The average ratings in 2016 is lower than in 2015 by about 5%.
 
 Chances are very high that it was caused by Fandango fixing the rating system after Hickey's analysis.
