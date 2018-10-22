@@ -47,7 +47,7 @@ Use Pandas to execute SQL queries to summarize population statistics, find outli
 Use Pandas to execute SQL queries to help business with questions such as
 choosing purchase strategies and evaluating sales performance.   Develop SQL queries using subqueries, multiple joins, set operations, aggregate function, views and case statement.
 
-- <b>Designing and Creating a Database</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLdatabases/Project_%20Designing%20and%20Creating%20a%20Database)] \
+- <b>Designing and Creating a Database</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLdatabases/Project_%20Designing%20and%20Creating%20a%20Database)][]\
 Import CSV data into a database.  Design a normalized schema for a large, predominantly single table data set.  Create tables that match the schema design.  Migrate data from unnormalized tables into normalized tables.
 
 ### Probability and Statistics in Python
