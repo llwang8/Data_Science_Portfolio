@@ -63,7 +63,7 @@ Using Python, Pandas, Numpy and Scipy to analyze Jeopardy dataset to exam claims
 
 ### Machine Learning
 - K Nearest Neighbors Regression and Cross Validation
-- Predict Car Prices [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20Car%20Prices)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20Car%20Prices/Basics.ipynb)]\
+- Predicting Car Prices [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20Car%20Prices)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20Car%20Prices/Basics.ipynb)]\
 Explore the work flow of machine learning using the k-nearest neighbors
 algorithm to predict a car's market price using its attributes. Experiment with a train/test model and a k-fold cross validation model.
 
