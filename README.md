@@ -62,7 +62,7 @@ Exam if FreeCodeCamp’s survey is representative of the population of interest 
 Using Python, Pandas, Numpy and Scipy to analyze Jeopardy dataset to exam claims of using past questions to prepare for future episodes or answers could be hidden in questions.
 
 ### Machine Learning
-- K Nearest Neighbors Regression and Cross Validation
+#### K Nearest Neighbors Regression and Cross Validation
 - Predicting Car Prices [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20Car%20Prices)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20Car%20Prices/Basics.ipynb)]\
 Explore the work flow of machine learning using the k-nearest neighbors
 algorithm to predict a car's market price using its attributes. Experiment with a train/test model and a k-fold cross validation model.
