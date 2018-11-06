@@ -40,14 +40,14 @@ Use Pandas to clean up survey data, which involves removing invalid rows, conver
 Explore relationships between SAT scores and demographic factors in New York City public schools.  Use Pandas to clean up dataset to prepare it for further analysis, which involves dataframe's corr() function for correlation studies, mpl_toolkits.basemap to map out factors to differentiate school, bar plot and scatter plot to display demographic difference in SAT performance.
 
 ### Analyzing Data Using SQL
-- <b>Analyzing CIA Factbook Data with SQLite and Python</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLdatabases/Project_%20Analyzing%20CIA%20Factbook%20Data%20Using%20SQLite%20and%20Python)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/SQLDatabases/Project_%20Analyzing%20CIA%20Factbook%20Data%20Using%20SQLite%20and%20Python/Basics.ipynb)]\
+- <b>Analyzing CIA Factbook Data with SQLite and Python</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLdatabases/Project_%20Analyzing%20CIA%20Factbook%20Data%20Using%20SQLite%20and%20Python)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/SQLdatabases/Project_%20Analyzing%20CIA%20Factbook%20Data%20Using%20SQLite%20and%20Python/Basics.ipynb)]\
 Use Pandas to execute SQL queries to summarize population statistics, find outliers, exam population density and explore ratio of water to land distribution.
 
-- <b>Answering Business Decision Using SQL</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLdatabases/Project_%20Answering%20Business%20Questions%20using%20SQL)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/SQLDatabases/Project_%20Answering%20Business%20Questions%20using%20SQL%20/Basics.ipynb)]\
+- <b>Answering Business Decision Using SQL</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLdatabases/Project_%20Answering%20Business%20Questions%20using%20SQL)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/SQLdatabases/Project_%20Answering%20Business%20Questions%20using%20SQL/Basics.ipynb)]\
 Use Pandas to execute SQL queries to help business with questions such as
 choosing purchase strategies and evaluating sales performance.   Develop SQL queries using subqueries, multiple joins, set operations, aggregate function, views and case statement.
 
-- <b>Designing and Creating a Database</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLdatabases/Project_%20Designing%20and%20Creating%20a%20Database)][]\
+- <b>Designing and Creating a Database</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/SQLdatabases/Project_%20Designing%20and%20Creating%20a%20Database)]\
 Import CSV data into a database.  Design a normalized schema for a large, predominantly single table data set.  Create tables that match the schema design.  Migrate data from unnormalized tables into normalized tables.
 
 ### Probability and Statistics in Python
@@ -64,11 +64,15 @@ Using Python, Pandas, Numpy and Scipy to analyze Jeopardy dataset to exam claims
 ### Machine Learning
 #### K Nearest Neighbors Regression and Cross Validation
 - Predicting Car Prices [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20Car%20Prices)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20Car%20Prices/Basics.ipynb)]\
-Explore the work flow of machine learning using the k-nearest neighbors
+Explore the workflow of machine learning using the k-nearest neighbors
 algorithm to predict a car's market price using its attributes. Experiment with a train/test model and a k-fold cross validation model.
 
 #### Linear Regression
-- [[open dir]()] [[ipynb]()]
+- Predicting House Sale Prices [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20House%20Sale%20Prices)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20House%20Sale%20Prices/Basics.ipynb)]\
+Explore approaches to model fitting, and techniques for cleaning, transforming,
+and selecting features to improve the linear regression model, and experiment
+with different k-fold to achieve the optimal LinearRegression model.
+
 
 #### Machine Learning In Python
 - [[open dir]()] [[ipynb]()]
