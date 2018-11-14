@@ -8,7 +8,7 @@ I'll work with housing data for the city of Ames, Iowa, United States from 2006 
 
 ### Built with:
 
-Python, Pandas, Numpy, matplotlib, seaborn, sklearn, KNeighborsReRegressor, KFold, and Anaconda Jupyter Notebook.
+Python, Pandas, Numpy, matplotlib, seaborn, sklearn, LinearRegression, KFold, mean_square_error, and Anaconda Jupyter Notebook.
 
 
 ### Project Guidelines Source

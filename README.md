@@ -75,7 +75,9 @@ with different k-fold to achieve the optimal LinearRegression model.
 
 
 #### Machine Learning In Python
-- [[open dir]()] [[ipynb]()]
+- Predicting the Stock Market[[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20the%20stock%20market)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20the%20stock%20market/PredictingTheStockMarket.ipynb)]\
+Use Linear Regression and historical data on the price of the S&P500 Index from 1950 to 2012 to make predictions about future prices for 2013-2015 and evaluate the prediction.
+
 
 #### Decision Tree
 - [[open dir]()] [[ipynb]()]
