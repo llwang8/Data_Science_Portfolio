@@ -14,7 +14,7 @@ The columns of the dataset are:
 - Volume -- The number of shares traded.
 - Adj Close -- The daily closing price, adjusted retroactively to include any corporate actions. Read more here.
 
-I'll be using this dataset to develop a predictive model. I'll train the model with data from 1950-2012, and try to make predictions from 2013-2015.
+I'll be using this dataset to develop a predictive model. I'll train the model with data from 1950-2012, and make predictions from 2013-2015. Evaluate the result with mean_absolute_error.
 
 
 ### Built with:
