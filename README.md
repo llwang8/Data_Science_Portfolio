@@ -80,9 +80,10 @@ Use Linear Regression and historical data on the price of the S&P500 Index from 
 
 
 #### Decision Tree
-- [[open dir]()] [[ipynb]()]
+- Predicting Bike Rentals [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20Bike%20Rentals)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20Bike%20Rentals/Basics.ipynb)]\
+Predict the total number of bikes people rented in a given hour by using all of the other features columns. A few different machine learning models are used and models performance are evaluated.
 
-####
+
 - [[open dir]()] [[ipynb]()]
 
 ### Spark and Map-Reduce
