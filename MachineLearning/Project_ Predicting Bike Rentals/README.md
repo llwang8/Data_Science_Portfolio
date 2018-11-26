@@ -1,7 +1,7 @@
 ## Project
 # Predicting Bike Rentals
 
-Hadi Fanaee-T at the University of Porto compiled this Bike Rental data into a CSV file. The file contains 17380 rows, with each row representing the number of bike rentals for a single hour of a single day, which can be downloaded from the [University of California, Irvine's website (http://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset)].
+Hadi Fanaee-T at the University of Porto compiled this Bike Rental data into a CSV file. The file contains 17380 rows, with each row representing the number of bike rentals for a single hour of a single day, which can be downloaded from the [University of California, Irvine's website](http://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset).
 
 Here are the descriptions for the relevant columns:
 
