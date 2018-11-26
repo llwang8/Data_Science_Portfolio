@@ -31,7 +31,7 @@ In this project, I'll try to predict the total number of bikes people rented in 
 Python, Pandas, Numpy, matplotlib, seaborn, sklearn, LinearRegression, DecisionTreeRegressor, RandomForestRegressor, mean_squared_error, and Anaconda Jupyter Notebook.
 
 
-### Project Guidelines Source
+### Project Guidelines Source:
 
  Path - Dataquest Data Scientist\
  Module - Machine Learning\
