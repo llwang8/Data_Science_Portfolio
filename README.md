@@ -62,25 +62,25 @@ Exam if FreeCodeCamp’s survey is representative of the population of interest 
 Using Python, Pandas, Numpy and Scipy to analyze Jeopardy dataset to exam claims of using past questions to prepare for future episodes or answers could be hidden in questions.
 
 ### Machine Learning
-##### K Nearest Neighbors Regression and Cross Validation
-- Predicting Car Prices [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20Car%20Prices)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20Car%20Prices/Basics.ipynb)]\
+#### K Nearest Neighbors Regression and Cross Validation
+- <b>Predicting Car Prices</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20Car%20Prices)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20Car%20Prices/Basics.ipynb)]\
 Explore the workflow of machine learning using the k-nearest neighbors
 algorithm to predict a car's market price using its attributes. Experiment with a train/test model and a k-fold cross validation model.
 
-##### Linear Regression
-- Predicting House Sale Prices [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20House%20Sale%20Prices)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20House%20Sale%20Prices/Basics.ipynb)]\
+#### Linear Regression
+- <b>Predicting House Sale Prices</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20House%20Sale%20Prices)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20House%20Sale%20Prices/Basics.ipynb)]\
 Explore approaches to model fitting, and techniques for cleaning, transforming,
 and selecting features to improve the linear regression model, and experiment
 with different k-fold to achieve the optimal LinearRegression model.
 
 
-##### Machine Learning In Python
-- Predicting the Stock Market[[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20the%20stock%20market)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20the%20stock%20market/PredictingTheStockMarket.ipynb)]\
+#### Machine Learning In Python
+- <b>Predicting the Stock Market</b>[[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20the%20stock%20market)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20the%20stock%20market/PredictingTheStockMarket.ipynb)]\
 Use Linear Regression and historical data on the price of the S&P500 Index from 1950 to 2012 to make predictions about future prices for 2013-2015 and evaluate the predictions.
 
 
-##### Decision Tree
-- Predicting Bike Rentals [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20Bike%20Rentals)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20Bike%20Rentals/Basics.ipynb)]\
+#### Decision Tree
+- <b>Predicting Bike Rentals</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20Bike%20Rentals)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20Bike%20Rentals/Basics.ipynb)]\
 Predict the total number of bikes people rented in a given hour by using all of the other features columns. A few different machine learning models are used and models performance are evaluated.
 
 - [[open dir]()] [[ipynb]()]
