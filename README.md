@@ -69,14 +69,11 @@ algorithm to predict a car's market price using its attributes. Experiment with 
 
 #### Linear Regression
 - <b>Predicting House Sale Prices</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20House%20Sale%20Prices)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20House%20Sale%20Prices/Basics.ipynb)]\
-Explore approaches to model fitting, and techniques for cleaning, transforming,
-and selecting features to improve the linear regression model, and experiment
-with different k-fold to achieve the optimal LinearRegression model.
-
+Explore approaches to model fitting, data cleaning, features transforming and selection, and k-fold cross-validation to achieve the optimal LinearRegression model for predicting house sale prices.
 
 #### Machine Learning In Python
 - <b>Predicting the Stock Market</b>[[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20the%20stock%20market)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20the%20stock%20market/PredictingTheStockMarket.ipynb)]\
-Use Linear Regression and historical data on the price of the S&P500 Index from 1950 to 2012 to make predictions about future prices for 2013-2015 and evaluate the predictions.
+Use Linear Regression and historical data on the price of the S&P 500 Index from 1950 to 2012 to make predictions about future prices for 2013-2015 and evaluate the predictions.
 
 
 #### Decision Tree
@@ -85,7 +82,9 @@ Predict the total number of bikes people rented in a given hour by using all of 
 
 - [[open dir]()] [[ipynb]()]
 
-### Spark and Map-Reduce
+## Data Engineer
+
+#### Spark and Map-Reduce
 - [[open dir]()] [[ipynb]()]
 
 

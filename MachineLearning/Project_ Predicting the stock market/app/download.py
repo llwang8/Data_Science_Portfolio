@@ -1,0 +1,1 @@
+"from yahoo_finance import Share\nimport csv\n\ngoog = Share('GOOG')\ndata = goog.get_historical('2012-01-01', '2017-03-17')"
