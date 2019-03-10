@@ -75,14 +75,35 @@ Explore approaches to model fitting, data cleaning, features transforming and se
 - <b>Predicting the Stock Market</b>[[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20the%20stock%20market)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20the%20stock%20market/PredictingTheStockMarket.ipynb)]\
 Use Linear Regression and historical data on the price of the S&P 500 Index from 1950 to 2012 to make predictions about future prices for 2013-2015 and evaluate the predictions.
 
-
 #### Decision Tree
 - <b>Predicting Bike Rentals</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/MachineLearning/Project_%20Predicting%20Bike%20Rentals)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/MachineLearning/Project_%20Predicting%20Bike%20Rentals/Basics.ipynb)]\
 Predict the total number of bikes people rented in a given hour by using all of the other features columns. A few different machine learning models are used and models performance are evaluated.
 
+
+## Data Engineering
+
+##### Production Database - Postgres
 - [[open dir]()] [[ipynb]()]
 
-## Data Engineer
+
+#### Handling Large Datasets in Python
+##### Processing Large Dataset in Pandas
+- [[open dir]()] [[ipynb]()]
+
+#### Optimizing Code Performance on Large Dataset
+- [[open dir]()] [[ipynb]()]
+
+##### Algorithms and Data Structures
+- [[open dir]()] [[ipynb]()]
+
+##### Recursion and Trees
+- [[open dir]()] [[ipynb]()]
+
+
+#### Build Data Pipeline
+- <b>Hacker News Pipeline</b> [[open dir]()] [[ipynb]()]
+From a JSON API, build a pipeline of processing tasks to filter, clean, aggregate, and summarize data including running a sequence of basic natural language processing. The goal is to find the top 100 keywords of Hacker News posts in 2014.
+
 
 #### Spark and Map-Reduce
 - [[open dir]()] [[ipynb]()]
