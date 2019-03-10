@@ -83,19 +83,19 @@ Predict the total number of bikes people rented in a given hour by using all of 
 ## Data Engineering
 
 #### Production Database - Postgres
-- [[open dir]()] [[ipynb]()]
+- [[open dir]()] [[ipynb]()]\
 
 
 #### Handling Large Datasets in Python
-- [[open dir]()] [[ipynb]()]
+- [[open dir]()] [[ipynb]()]\
 
 
 #### Build Data Pipeline
-- <b>Hacker News Pipeline</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataEngineering/BuildDataPipeline/Project_%20Hacker%20News%20Pipeline)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataEngineering/BuildDataPipeline/Project_%20Hacker%20News%20Pipeline/Basics.ipynb)]
+- <b>Hacker News Pipeline</b> [[open dir](https://github.com/llwang8/Data_Science_Portfolio/tree/master/DataEngineering/BuildDataPipeline/Project_%20Hacker%20News%20Pipeline)] [[ipynb](https://github.com/llwang8/Data_Science_Portfolio/blob/master/DataEngineering/BuildDataPipeline/Project_%20Hacker%20News%20Pipeline/Basics.ipynb)]\
 From a JSON API, build a pipeline of processing tasks to filter, clean, aggregate, and summarize data including running a sequence of basic natural language processing. The goal is to find the top 100 keywords of Hacker News posts in 2014.
 
 
 #### Spark and Map-Reduce
-- [[open dir]()] [[ipynb]()]
+- [[open dir]()] [[ipynb]()]\
 
 
