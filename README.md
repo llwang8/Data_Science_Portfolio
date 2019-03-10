@@ -87,16 +87,6 @@ Predict the total number of bikes people rented in a given hour by using all of 
 
 
 #### Handling Large Datasets in Python
-##### Processing Large Dataset in Pandas
-- [[open dir]()] [[ipynb]()]
-
-#### Optimizing Code Performance on Large Dataset
-- [[open dir]()] [[ipynb]()]
-
-##### Algorithms and Data Structures
-- [[open dir]()] [[ipynb]()]
-
-##### Recursion and Trees
 - [[open dir]()] [[ipynb]()]
 
 
